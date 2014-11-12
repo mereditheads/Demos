@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">
+  <Copyright>Copyright © 2012 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>
+  <BrandLogoUri>http://dev.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>
+  <StatusCode>200</StatusCode>
+  <StatusDescription>OK</StatusDescription>
+  <AuthenticationResultCode>ValidCredentials</AuthenticationResultCode>
+  <TraceId>267eca16c2ad4a7cb9dd3c0bc0c0ab58|EWRM003310|02.00.82.300|EWRMSNVM002554, EWRMSNVM001701, EWRMSNVM001737, EWRMSNVM002514, EWRMSNVM001745, EWRMSNVM003209, EWRMSNVM002853</TraceId>
+  <ResourceSets>
+    <ResourceSet>
+      <EstimatedTotal>1</EstimatedTotal>
+      <Resources>
+        <Route>
+          <Id>v63,i0,a0,cen-US,dAAAAAAAAAAA=,y0,s1,m1,o1,t4,wd2brAgBu4/g=~At2WS7NhXhYiAADgAfnBUD4A~NDI1OSBQYWNlIFN0LCBOb3J0aCBDaGFybGVzdG9uLCBTQyAyOTQwNQ==~~~,wEhgBA94yAPk=~At2WS7NRa6wgAADgARfC4z4A~NDc1MCBOIEtpbmdzIEh3eSwgTm9ydGggTXlydGxlIEJlYWNoLCBTQyAyOTU4Mg==~~~,k0</Id>
+          <BoundingBox>
+            <SouthLatitude>32.800938</SouthLatitude>
+            <WestLongitude>-80.00632</WestLongitude>
+            <NorthLatitude>33.798077</NorthLatitude>
+            <EastLongitude>-78.741268</EastLongitude>
+          </BoundingBox>
+          <DistanceUnit>Mile</DistanceUnit>
+          <DurationUnit>Second</DurationUnit>
+          <TravelDistance>112.097227</TravelDistance>
+          <TravelDuration>8413</TravelDuration>
+          <RouteLeg>
+            <TravelDistance>112.097227</TravelDistance>
+            <TravelDuration>8413</TravelDuration>
+            <ActualStart>
+              <Latitude>32.844737</Latitude>
+              <Longitude>-80.005531</Longitude>
+            </ActualStart>
+            <ActualEnd>
+              <Latitude>33.798077</Latitude>
+              <Longitude>-78.741268</Longitude>
+            </ActualEnd>
+            <StartLocation>
+              <Name>4259 Pace St, North Charleston, SC 29405</Name>
+              <Point>
+                <Latitude>32.844406</Latitude>
+                <Longitude>-80.005447</Longitude>
+              </Point>
+              <BoundingBox>
+                <SouthLatitude>32.840543</SouthLatitude>
+                <WestLongitude>-80.011577</WestLongitude>
+                <NorthLatitude>32.848269</NorthLatitude>
+                <EastLongitude>-79.999317</EastLongitude>
+              </BoundingBox>
+              <EntityType>Address</EntityType>
+              <Address>
+                <AddressLine>4259 Pace St</AddressLine>
+                <AdminDistrict>SC</AdminDistrict>
+                <AdminDistrict2>Charleston Co.</AdminDistrict2>
+                <CountryRegion>United States</CountryRegion>
+                <FormattedAddress>4259 Pace St, North Charleston, SC 29405</FormattedAddress>
+                <Locality>North Charleston</Locality>
+                <PostalCode>29405</PostalCode>
+              </Address>
+              <Confidence>High</Confidence>
+              <MatchCode>Good</MatchCode>
+              <GeocodePoint>
+                <Latitude>32.844406</Latitude>
+                <Longitude>-80.005447</Longitude>
+                <CalculationMethod>Parcel</CalculationMethod>
+                <UsageType>Display</UsageType>
+              </GeocodePoint>
+              <GeocodePoint>
+                <Latitude>32.844738</Latitude>
+                <Longitude>-80.005531</Longitude>
+                <CalculationMethod>Interpolation</CalculationMethod>
+                <UsageType>Route</UsageType>
+              </GeocodePoint>
+            </StartLocation>
+            <EndLocation>
+              <Name>4750 N Kings Hwy, North Myrtle Beach, SC 29582</Name>
+              <Point>
+                <Latitude>33.79812</Latitude>
+                <Longitude>-78.741285</Longitude>
+              </Point>
+              <BoundingBox>
+                <SouthLatitude>33.794257</SouthLatitude>
+                <WestLongitude>-78.747482</WestLongitude>
+                <NorthLatitude>33.801983</NorthLatitude>
+                <EastLongitude>-78.735087</EastLongitude>
+              </BoundingBox>
+              <EntityType>Address</EntityType>
+              <Address>
+                <AddressLine>4750 N Kings Hwy</AddressLine>
+                <AdminDistrict>SC</AdminDistrict>
+                <AdminDistrict2>Horry Co.</AdminDistrict2>
+                <CountryRegion>United States</CountryRegion>
+                <FormattedAddress>4750 N Kings Hwy, North Myrtle Beach, SC 29582</FormattedAddress>
+                <Locality>North Myrtle Beach</Locality>
+                <PostalCode>29582</PostalCode>
+              </Address>
+              <Confidence>High</Confidence>
+              <MatchCode>Good</MatchCode>
+              <GeocodePoint>
+                <Latitude>33.79812</Latitude>
+                <Longitude>-78.741285</Longitude>
+                <CalculationMethod>InterpolationOffset</CalculationMethod>
+                <UsageType>Display</UsageType>
+              </GeocodePoint>
+              <GeocodePoint>
+                <Latitude>33.798077</Latitude>
+                <Longitude>-78.741268</Longitude>
+                <CalculationMethod>Interpolation</CalculationMethod>
+                <UsageType>Route</UsageType>
+              </GeocodePoint>
+            </EndLocation>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>0.037282</TravelDistance>
+              <TravelDuration>6</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.844737</Latitude>
+                <Longitude>-80.005531</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="DepartStart">Depart Pace St toward Industrial Ave</Instruction>
+              <CompassDirection>west</CompassDirection>
+              <Detail>
+                <ManeuverType>DepartStart</ManeuverType>
+                <StartPathIndex>0</StartPathIndex>
+                <EndPathIndex>2</EndPathIndex>
+                <Name>Pace St</Name>
+                <CompassDegrees>256</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Street</RoadType>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <TowardsRoadName>Industrial Ave</TowardsRoadName>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>0.239849</TravelDistance>
+              <TravelDuration>47</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.844599</Latitude>
+                <Longitude>-80.006159</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="TurnRight">Turn right onto Industrial Ave</Instruction>
+              <CompassDirection>northwest</CompassDirection>
+              <Detail>
+                <ManeuverType>TurnRight</ManeuverType>
+                <StartPathIndex>2</StartPathIndex>
+                <EndPathIndex>8</EndPathIndex>
+                <Name>Industrial Ave</Name>
+                <CompassDegrees>332</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Street</RoadType>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>1.501233</TravelDistance>
+              <TravelDuration>169</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.847571</Latitude>
+                <Longitude>-80.004941</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="TurnRight">Turn right onto Azalea Dr</Instruction>
+              <CompassDirection>east</CompassDirection>
+              <Detail>
+                <ManeuverType>TurnRight</ManeuverType>
+                <StartPathIndex>8</StartPathIndex>
+                <EndPathIndex>19</EndPathIndex>
+                <Name>Azalea Dr</Name>
+                <CompassDegrees>104</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Street</RoadType>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>0.29453</TravelDistance>
+              <TravelDuration>37</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.84705</Latitude>
+                <Longitude>-79.979471</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="TurnRight">Turn right onto SC-7 / Cosgrove Ave</Instruction>
+              <CompassDirection>south</CompassDirection>
+              <Detail>
+                <ManeuverType>TurnRight</ManeuverType>
+                <StartPathIndex>19</StartPathIndex>
+                <EndPathIndex>24</EndPathIndex>
+                <Name>Cosgrove Ave</Name>
+                <CompassDegrees>174</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Arterial</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50703</Bucket>
+                  <Shield>
+                    <RoadShieldType>3</RoadShieldType>
+                    <Label>7</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125-09451</LocationCode>
+                <LocationCode>125N09451</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>3.46663</TravelDistance>
+              <TravelDuration>228</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.843059</Latitude>
+                <Longitude>-79.980871</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="RampThenHighwayRight">Take ramp right for I-26 East toward Charleston</Instruction>
+              <CompassDirection>east</CompassDirection>
+              <Detail>
+                <ManeuverType>TakeRampRight</ManeuverType>
+                <StartPathIndex>24</StartPathIndex>
+                <EndPathIndex>32</EndPathIndex>
+                <CompassDegrees>245</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Ramp</RoadType>
+              </Detail>
+              <Detail>
+                <ManeuverType>Merge</ManeuverType>
+                <StartPathIndex>32</StartPathIndex>
+                <EndPathIndex>58</EndPathIndex>
+                <Name>I-26 East</Name>
+                <CompassDegrees>105</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>LimitedAccessHighway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50681</Bucket>
+                  <Shield>
+                    <RoadShieldType>1</RoadShieldType>
+                    <Label>26</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125N04571</LocationCode>
+                <LocationCode>125-04570</LocationCode>
+                <LocationCode>125N04570</LocationCode>
+                <LocationCode>125-04569</LocationCode>
+                <LocationCode>125N04569</LocationCode>
+                <LocationCode>125-04568</LocationCode>
+                <LocationCode>125N04568</LocationCode>
+                <LocationCode>125-04567</LocationCode>
+                <LocationCode>125N04567</LocationCode>
+                <LocationCode>125-04566</LocationCode>
+              </Detail>
+              <Sign>Charleston</Sign>
+              <Sign>I-26 East</Sign>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>6.746227</TravelDistance>
+              <TravelDuration>535</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.811318</Latitude>
+                <Longitude>-79.951388</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="RampThenHighwayRight">At exit 220, take ramp right for US-17 North toward Georgetown / Mt Pleasant</Instruction>
+              <CompassDirection>east</CompassDirection>
+              <Hint>Pass Days Inn in 3.6 mi</Hint>
+              <Warning warningType="TrafficFlow" severity="Moderate">Moderate Congestion</Warning>
+              <Detail>
+                <ManeuverType>TakeRampRight</ManeuverType>
+                <StartPathIndex>58</StartPathIndex>
+                <EndPathIndex>69</EndPathIndex>
+                <CompassDegrees>130</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Ramp</RoadType>
+              </Detail>
+              <Detail>
+                <ManeuverType>Merge</ManeuverType>
+                <StartPathIndex>69</StartPathIndex>
+                <EndPathIndex>93</EndPathIndex>
+                <Name>US-17 North</Name>
+                <CompassDegrees>81</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>LimitedAccessHighway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50681</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+05713</LocationCode>
+                <LocationCode>125P05713</LocationCode>
+                <LocationCode>125+07809</LocationCode>
+                <LocationCode>125P07809</LocationCode>
+                <LocationCode>125+07509</LocationCode>
+                <LocationCode>125P07509</LocationCode>
+                <LocationCode>125+09439</LocationCode>
+                <LocationCode>125+07510</LocationCode>
+                <LocationCode>125+05714</LocationCode>
+                <LocationCode>125P05714</LocationCode>
+                <LocationCode>125+07511</LocationCode>
+              </Detail>
+              <Sign>Georgetown</Sign>
+              <Sign>Mt Pleasant</Sign>
+              <Sign>US-17 North</Sign>
+              <Exit>220</Exit>
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>1.122818</TravelDistance>
+              <TravelDuration>104</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.816511</Latitude>
+                <Longitude>-79.846069</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="KeepStraight">Keep straight onto US-17 / N US-17</Instruction>
+              <CompassDirection>northeast</CompassDirection>
+              <Warning warningType="TrafficFlow" severity="Moderate">Moderate Congestion</Warning>
+              <Detail>
+                <ManeuverType>KeepStraight</ManeuverType>
+                <StartPathIndex>93</StartPathIndex>
+                <EndPathIndex>96</EndPathIndex>
+                <Name>N US-17</Name>
+                <CompassDegrees>41</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50685</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07511</LocationCode>
+                <LocationCode>125+07512</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>28.493597</TravelDistance>
+              <TravelDuration>2021</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.829332</Latitude>
+                <Longitude>-79.834358</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="BearRight">Bear right onto US-17 N / N US-17</Instruction>
+              <CompassDirection>northeast</CompassDirection>
+              <Hint>BURGER KING on the corner</Hint>
+              <Warning warningType="TrafficFlow" severity="Moderate">Moderate Congestion</Warning>
+              <Detail>
+                <ManeuverType>BearRight</ManeuverType>
+                <StartPathIndex>96</StartPathIndex>
+                <EndPathIndex>178</EndPathIndex>
+                <Name>N US-17</Name>
+                <CompassDegrees>65</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50690</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07512</LocationCode>
+                <LocationCode>125+07513</LocationCode>
+                <LocationCode>125+07514</LocationCode>
+                <LocationCode>125+07515</LocationCode>
+                <LocationCode>125+05715</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>1.254548</TravelDistance>
+              <TravelDuration>92</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.090042</Latitude>
+                <Longitude>-79.484362</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="KeepStraight">Keep straight onto US-17 / N US-17</Instruction>
+              <CompassDirection>northeast</CompassDirection>
+              <Detail>
+                <ManeuverType>KeepStraight</ManeuverType>
+                <StartPathIndex>178</StartPathIndex>
+                <EndPathIndex>182</EndPathIndex>
+                <Name>N US-17</Name>
+                <CompassDegrees>57</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50685</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+05715</LocationCode>
+                <LocationCode>125+07516</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>19.188564</TravelDistance>
+              <TravelDuration>1285</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.101372</Latitude>
+                <Longitude>-79.46748</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="KeepStraight">Keep straight onto US-17 N / N US-17</Instruction>
+              <CompassDirection>northeast</CompassDirection>
+              <Detail>
+                <ManeuverType>KeepStraight</ManeuverType>
+                <StartPathIndex>182</StartPathIndex>
+                <EndPathIndex>217</EndPathIndex>
+                <Name>N US-17</Name>
+                <CompassDegrees>53</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50690</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07516</LocationCode>
+                <LocationCode>125+07786</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>1.308608</TravelDistance>
+              <TravelDuration>126</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.336822</Latitude>
+                <Longitude>-79.306188</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="BearRight">Bear right onto US-17 / S Fraser St</Instruction>
+              <CompassDirection>northeast</CompassDirection>
+              <Detail>
+                <ManeuverType>BearRight</ManeuverType>
+                <StartPathIndex>217</StartPathIndex>
+                <EndPathIndex>222</EndPathIndex>
+                <Name>S Fraser St</Name>
+                <CompassDegrees>44</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50685</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07786</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>0.866191</TravelDistance>
+              <TravelDuration>83</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.351703</Latitude>
+                <Longitude>-79.292622</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="BearRight">Bear right onto US-17 N / S Fraser St</Instruction>
+              <CompassDirection>northeast</CompassDirection>
+              <Detail>
+                <ManeuverType>BearRight</ManeuverType>
+                <StartPathIndex>222</StartPathIndex>
+                <EndPathIndex>228</EndPathIndex>
+                <Name>S Fraser St</Name>
+                <CompassDegrees>24</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50690</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07786</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>3.838831</TravelDistance>
+              <TravelDuration>388</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.363939</Latitude>
+                <Longitude>-79.295352</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="KeepStraight">Keep straight onto US-17 / S Fraser St</Instruction>
+              <CompassDirection>north</CompassDirection>
+              <Hint>Pass BURGER KING in 0.9 mi</Hint>
+              <Detail>
+                <ManeuverType>KeepStraight</ManeuverType>
+                <StartPathIndex>228</StartPathIndex>
+                <EndPathIndex>242</EndPathIndex>
+                <Name>S Fraser St</Name>
+                <CompassDegrees>3</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50685</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07786</LocationCode>
+                <LocationCode>125+07361</LocationCode>
+                <LocationCode>125P07361</LocationCode>
+                <LocationCode>125+07362</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>7.345229</TravelDistance>
+              <TravelDuration>514</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.364518</Latitude>
+                <Longitude>-79.240581</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="KeepStraight">Keep straight onto US-17 N</Instruction>
+              <CompassDirection>east</CompassDirection>
+              <Detail>
+                <ManeuverType>KeepStraight</ManeuverType>
+                <StartPathIndex>242</StartPathIndex>
+                <EndPathIndex>265</EndPathIndex>
+                <Name>US-17 N</Name>
+                <CompassDegrees>106</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50690</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07362</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>3.413813</TravelDistance>
+              <TravelDuration>309</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.427588</Latitude>
+                <Longitude>-79.151441</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="BearRight">Bear right onto US-17 / Ocean Hwy</Instruction>
+              <CompassDirection>east</CompassDirection>
+              <Hint>Pass KFC in 1.5 mi</Hint>
+              <Detail>
+                <ManeuverType>BearRight</ManeuverType>
+                <StartPathIndex>265</StartPathIndex>
+                <EndPathIndex>272</EndPathIndex>
+                <Name>Ocean Hwy</Name>
+                <CompassDegrees>67</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50685</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07362</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>28.538336</TravelDistance>
+              <TravelDuration>2079</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.461201</Latitude>
+                <Longitude>-79.111669</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="KeepStraight">Keep straight onto US-17 N / Ocean Hwy</Instruction>
+              <CompassDirection>northeast</CompassDirection>
+              <Hint>Pass Wilco on the left in 7.6 mi</Hint>
+              <Detail>
+                <ManeuverType>KeepStraight</ManeuverType>
+                <StartPathIndex>272</StartPathIndex>
+                <EndPathIndex>327</EndPathIndex>
+                <Name>Ocean Hwy</Name>
+                <CompassDegrees>45</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Highway</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50690</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07362</LocationCode>
+                <LocationCode>125P07362</LocationCode>
+                <LocationCode>125+07517</LocationCode>
+                <LocationCode>125P07517</LocationCode>
+                <LocationCode>125+07518</LocationCode>
+                <LocationCode>125+07519</LocationCode>
+                <LocationCode>125+07384</LocationCode>
+                <LocationCode>125P07384</LocationCode>
+                <LocationCode>125+07520</LocationCode>
+                <LocationCode>125P07520</LocationCode>
+                <LocationCode>125+07521</LocationCode>
+                <LocationCode>125P07521</LocationCode>
+                <LocationCode>125+07385</LocationCode>
+                <LocationCode>125P07385</LocationCode>
+                <LocationCode>125+07522</LocationCode>
+                <LocationCode>125+07523</LocationCode>
+                <LocationCode>125+07524</LocationCode>
+                <LocationCode>125P07524</LocationCode>
+                <LocationCode>125+07525</LocationCode>
+                <LocationCode>125+07386</LocationCode>
+                <LocationCode>125P07386</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>0.233014</TravelDistance>
+              <TravelDuration>18</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.766893</Latitude>
+                <Longitude>-78.806611</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="KeepStraight">Keep straight onto US-17</Instruction>
+              <CompassDirection>east</CompassDirection>
+              <Detail>
+                <ManeuverType>KeepStraight</ManeuverType>
+                <StartPathIndex>327</StartPathIndex>
+                <EndPathIndex>331</EndPathIndex>
+                <Name>US-17</Name>
+                <CompassDegrees>68</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>MajorRoad</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50694</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125P07386</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>0.587196</TravelDistance>
+              <TravelDuration>46</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.768609</Latitude>
+                <Longitude>-78.80321</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="RampThenHighwayLeft">Take ramp left for US-17 N / N Kings Hwy</Instruction>
+              <CompassDirection>northeast</CompassDirection>
+              <Detail>
+                <ManeuverType>TakeRampLeft</ManeuverType>
+                <StartPathIndex>331</StartPathIndex>
+                <EndPathIndex>334</EndPathIndex>
+                <CompassDegrees>39</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Ramp</RoadType>
+                <LocationCode>125P07386</LocationCode>
+              </Detail>
+              <Detail>
+                <ManeuverType>Merge</ManeuverType>
+                <StartPathIndex>334</StartPathIndex>
+                <EndPathIndex>337</EndPathIndex>
+                <Name>N Kings Hwy</Name>
+                <CompassDegrees>50</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>MajorRoad</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50699</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07526</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>3.62073</TravelDistance>
+              <TravelDuration>314</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.7751</Latitude>
+                <Longitude>-78.796912</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="BearRight">Bear right onto US-17 / N Kings Hwy</Instruction>
+              <CompassDirection>northeast</CompassDirection>
+              <Hint>Best Western on the corner</Hint>
+              <Detail>
+                <ManeuverType>BearRight</ManeuverType>
+                <StartPathIndex>337</StartPathIndex>
+                <EndPathIndex>343</EndPathIndex>
+                <Name>N Kings Hwy</Name>
+                <CompassDegrees>48</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>MajorRoad</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50694</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07526</LocationCode>
+                <LocationCode>125P07526</LocationCode>
+                <LocationCode>125+07527</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>0</TravelDistance>
+              <TravelDuration>0</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>33.798077</Latitude>
+                <Longitude>-78.741268</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="ArriveFinish">Arrive at 4750 N Kings Hwy, North Myrtle Beach, SC 29582</Instruction>
+              <CompassDirection>east</CompassDirection>
+              <Hint>The last intersection is 48th Ave S</Hint>
+              <Hint>If you reach Conway St, you've gone too far</Hint>
+              <Detail>
+                <ManeuverType>ArriveFinish</ManeuverType>
+                <StartPathIndex>343</StartPathIndex>
+                <EndPathIndex>343</EndPathIndex>
+                <Name>N Kings Hwy</Name>
+                <CompassDegrees>74</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>MajorRoad</RoadType>
+                <RoadShieldRequestParameters>
+                  <Bucket>50694</Bucket>
+                  <Shield>
+                    <RoadShieldType>2</RoadShieldType>
+                    <Label>17</Label>
+                  </Shield>
+                </RoadShieldRequestParameters>
+                <LocationCode>125+07527</LocationCode>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <StartTime>0001-01-01T00:00:00</StartTime>
+            <EndTime>0001-01-01T00:00:00</EndTime>
+          </RouteLeg>
+        </Route>
+      </Resources>
+    </ResourceSet>
+  </ResourceSets>
+</Response>

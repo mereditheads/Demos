@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <link href="css/blueprint_1080px/screen.css" rel="stylesheet" type="text/css" media="screen">
+        <!-- Custom CSS -->
+
+        <link rel="stylesheet" href="css/ad.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/category.css" type="text/css" media="screen, projection">
+
+        <link rel="stylesheet" href="css/jquery-ui-custom.css" />
+        
+        <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />-->
+        
+        <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+        <script>
+		$(function() {
+			var icons = {
+				header: "ui-icon-circle-arrow-e",
+				activeHeader: "ui-icon-circle-arrow-s"
+			};
+			$( "#accordion" ).accordion({
+				icons: icons
+			});
+			$( "#toggle" ).button().click(function() {
+				if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+					$( "#accordion" ).accordion( "option", "icons", null );
+				} else {
+					$( "#accordion" ).accordion( "option", "icons", icons );
+				}
+			});
+		});
+		</script>
+    </head>
+    <body>
+        <div class="container">
+        	<div id="info_container" class="span-9 last">
+            	<div id="date_time" class="prepend-1"><h3>Sunday</h3><h2>September 24</h2><h1>1:40<span class="timeday">pm</span></h1></div>
+                <div id="weather">
+                	<div id="weather_icon" class="span-3 prepend-1"><img src="images/info/weather_rain.png"/></div>
+                    <div id="temp" class="span-4"><p>100 <span class="low_temp">/ 70</span></p></div>
+                </div>
+            </div>
+            <!-- Test only -->
+            <div id="info_header" class="span-26 last">
+                <span class="category_header" >@ViewBag.Category /</span>
+            </div>
+            <!--<div id="ad-small-rotator" class="nivoSlider span-26 last">    
+            </div>-->
+            <!-- End Test Only-->
+            <div id="sidebar" class="span-9">
+                <div id="filter_container" class="span-9">
+                    <div id="accordion">
+                        <a href="#">Manhattan <span class="alignright">+</span></a>
+                        <div>
+                            <ul id="menulink">
+                            <li>Chelsea</li>
+                            <li>East Village</li>
+                            <li>Gramercy Park</li>
+                        </ul>
+                        </div>
+                        <a href="#">Brooklyn <span class="alignright">+</span></a>
+                        <div>
+                            <ul id="menulink">
+                            <li>Chelsea</li>
+                            <li>East Village</li>
+                            <li>Gramercy Park</li>
+                        </ul>
+                        </div>
+                        <a href="#">Queens <span class="alignright">+</span></a>
+                        <div>
+                            <ul id="menulink">
+                            <li>Chelsea</li>
+                            <li>East Village</li>
+                            <li>Gramercy Park</li>
+                        </ul>
+                        </div>
+                        <a href="#">The Bronx <span class="alignright">+</span></a>
+                        <div>
+                       
+                        </div>
+                        <a href="#">Staten Island <span class="alignright">+</span></a>
+                        <div>
+                      
+                        </div>
+                    </div>
+                    <div class="filter_main"><a href="#">Show All</a></div>
+               </div>
+               <div id="sub_navigation" class="span-9">
+                    <div class="prepend-1 span-3 append-1">
+                         <a href="#" id="btnHome"><img src="images/navigation/btn_home.png"/></a>
+                    </div>
+                    <div class="span-3 append-1">
+                          <a href="#" id="btnBack"><img src="images/navigation/btn_back.png"/></a>
+                    </div>
+                <!--
+                	<div class="span-21 sub_navigation_column">
+                          <span class="sub_navigation_column_contents" >@ViewBag.Category /</span>
+                    </div>
+                -->
+            	</div>
+            </div>
+            
+            <div id="category_container" class="span-26 last">
+                <div id="category_grid">
+                    <div id="category_rows" class="span-26 last">
+                        <div class="span-26 last category_row">
+                            <div class="category_button_0">
+
+                            </div>
+                            <div class="category_button_1">
+
+                            </div>
+                            <div class="category_button_2">
+
+                            </div>
+                            <div class="category_button_3">
+
+                            </div>
+                        </div>
+                        <div class="span-26 last category_row">
+                            <div class="category_button_0">
+
+                            </div>
+                            <div class="category_button_1">
+
+                            </div>
+                            <div class="category_button_2">
+
+                            </div>
+                            <div class="category_button_3">
+
+                            </div>
+                        </div>
+                        <div class="span-26 last category_row">
+                            <div class="category_button_0">
+
+                            </div>
+                            <div class="category_button_1">
+
+                            </div>
+                            <div class="category_button_2">
+
+                            </div>
+                            <div class="category_button_3">
+
+                            </div>
+                        </div>
+                        <!--
+                        <div class="span-26 last category_row">
+                            <div class="category_button_0">
+
+                            </div>
+                            <div class="category_button_1">
+
+                            </div>
+                            <div class="category_button_2">
+
+                            </div>
+                            <div class="category_button_3">
+
+                            </div>
+                        </div>
+                        <div class="span-26 last category_row">
+                            <div class="category_button_0">
+
+                            </div>
+                            <div class="category_button_1">
+
+                            </div>
+                            <div class="category_button_2">
+
+                            </div>
+                            <div class="category_button_3">
+
+                            </div>
+                        </div>
+                        <div class="span-26 last category_row">
+                            <div class="category_button_0">
+
+                            </div>
+                            <div class="category_button_1">
+
+                            </div>
+                            <div class="category_button_2">
+
+                            </div>
+                            <div class="category_button_3">
+
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+            <div id="nav_container" class="span-35">
+                <div class=" span-7">
+                    <img src="images/navigation/btn_entertainmentandevents.png"/>
+                </div>
+                <div class=" span-7">
+                    <img src="images/navigation/btn_seedo.png">
+                </div>
+                <div class=" span-7">
+                    <img src="images/navigation/btn_hotelinformation.png" />
+                </div>
+                <div class=" span-7">
+                    <img src="images/navigation/btn_dining.png" />
+                </div>
+                <div class=" span-7 last">
+                    <img src="images/navigation/btn_transportation.png" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,121 @@
+<html>
+	<head>
+    	<!-- Grid CSS -->
+        <link href="css/blueprint_1080px/screen.css" rel="stylesheet" type="text/css" media="screen">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/ad.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/category.css" type="text/css" media="screen, projection">
+        
+        <!--Nivo Slider-->
+        <link rel="stylesheet" href="nivoslider/themes/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivoslider/themes/light/light.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivoslider/themes/dark/dark.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivoslider/themes/bar/bar.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivoslider/nivo-slider.css" type="text/css" media="screen" />
+        
+        <!-- Custom Jquery UI CSS -->
+        <!-- *$*$*is this still needed?*$*$* <link rel="stylesheet" href="css/jquery-ui-custom.css" /> -->
+        <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />--
+        
+        <!-- Ad Rotator Script -->
+        <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+        <script>
+		$(function() {
+			var icons = {
+				header: "ui-icon-circle-arrow-e",
+				activeHeader: "ui-icon-circle-arrow-s"
+			};
+			$( "#accordion" ).accordion({
+				icons: icons
+			});
+			$( "#toggle" ).button().click(function() {
+				if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+					$( "#accordion" ).accordion( "option", "icons", null );
+				} else {
+					$( "#accordion" ).accordion( "option", "icons", icons );
+				}
+			});
+		});
+		</script>
+        
+        <!-- #info_container Background Position JQuery -->
+        <!--<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <script>
+		var scrollSpeed = 100;
+		// set the default position
+		var current = 0;
+		// set the direction
+		var direction = 'h';
+		function bgscroll(){
+			// 1 pixel row at a time
+			current -= 1;
+			// move the background with backgrond-position css properties
+			$('#info_container').css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");
+		}
+		//Calls the scrolling function repeatedly
+		 setInterval(bgscroll, scrollSpeed);    
+		</script>-->
+        
+    </head>
+    
+    <body oncontextmenu="return false;">
+    	<div class="container">
+        
+            <div id="ad-large-rotator">
+            
+            	<div class="slider-wrapper theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <a href="dining.html"><img src="images/ads/ad_large_c_dining.png" data-thumb="images/ads/ad_large_c_dining.png" alt="" /></a>
+                        <a href="cnncenter.html"><img src="images/ads/ad_large_p_cnncenter.png" data-thumb="images/ads/ad_large_p_cnncenter.png" alt="" /></a>
+                        <a href="georgiaaquarium.html"><img src="images/ads/ad_large_p_georgiaaquarium.png" data-thumb="images/ads/ad_large_p_georgiaaquarium.png" alt="" /></a>
+                        <a href="highmuseumofart.html"><img src="images/ads/ad_large_p_highmuseumofart.png" data-thumb="images/ads/ad_large_p_highmuseumofart.png" alt="" /></a>
+                        <a href="marymacstearoom.html"><img src="images/ads/ad_large_p_marymacstearoom.png" data-thumb="images/ads/ad_large_p_marymacstearoom.png" alt="" /></a>
+                        <a href="perimetermall.html"><img src="images/ads/ad_large_p_perimetermall.png" data-thumb="images/ads/ad_large_p_perimetermall.png" alt="" /></a>
+                        <a href="thevarsity.html"><img src="images/ads/ad_large_p_thevarsity.png" data-thumb="images/ads/ad_large_p_thevarsity.png" alt="" /></a>
+                        <a href="worldofcocacola.html"><img src="images/ads/ad_large_p_worldofcocacola.png" data-thumb="images/ads/ad_large_p_worldofcocacola.png" alt="" /></a>
+                    </div>
+                    
+                </div>
+            
+            </div>
+            
+            <div id="nav_container" class="span-35">
+                <div class="main_nav">
+                    <img src="images/navigation/btn_deals.png"/>
+                </div>
+                <div class="main_nav">
+                    <a href="seedo.html"><img src="images/navigation/btn_seedo.png"></a>
+                </div>
+                <div class="main_nav">
+                    <a href="internal.html"><img src="images/navigation/btn_guestbook.png" /></a>
+                </div>
+                <div class="main_nav">
+                    <a href="dining.html"><img src="images/navigation/btn_dining.png" /></a>
+                </div>
+                <div class="main_nav">
+                    <img src="images/navigation/btn_visitorinfo.png" />
+                </div>
+            </div><!--End #nav_container-->
+            
+        </div><!--End .container-->
+    
+    <script type="text/javascript" src="nivoslider/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="nivoslider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+			animSpeed: 500, // Slide transition speed
+			pauseTime: 10000, // How long each slide will show
+			directionNav: false, // Next & Prev navigation
+			controlNav: false, // 1,2,3... navigation
+			controlNavThumbs: false, // Use thumbnails for Control Nav
+			pauseOnHover: false, // Stop animation while hovering
+		});
+    });
+    </script>
+    
+    </body>
+</html>

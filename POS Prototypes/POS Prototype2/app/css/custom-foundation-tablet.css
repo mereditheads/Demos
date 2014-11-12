@@ -1,0 +1,159 @@
+/*Foundation*/
+.row{
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.panel{
+    display: inline-block;
+    float: none;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1.75rem;
+    background: #fff;
+    border-color: #ddd;
+}
+
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
+    margin-bottom: 1rem;
+    color: inherit;
+}
+
+.button,
+button{
+    font-size: .85rem;
+    text-transform: uppercase;
+}
+
+.button.radius,
+button.radius{
+    border-radius: 2rem;
+}
+
+label{
+    color: #888;
+    text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea{
+    margin: 0 1rem 1rem 0;
+    border-bottom: 4px solid;
+    border-color: #ddd;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    font-weight: 300;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select{
+    height: auto;
+    padding: 0.5rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+    background: none;
+    border-color: #27c4f4;
+    box-shadow: none;
+}
+
+select,
+select:hover,
+select:focus{
+    background: #fff url('../images/icon-dropdown-27c4f4.png') no-repeat;
+    background-size: 15px;
+    background-position: right center;
+    border-bottom: solid 4px;
+    border-color: #ddd;
+    color: #222;
+}
+
+select:hover,
+select:focus{
+    background-size: 15px;
+    background-position: right center;
+    border-color: #27c4f4;
+}
+
+nav.tab-bar {
+    background: #222;
+    height: 60px;
+    line-height: 60px;
+}
+
+section.left-small {
+    height: 60px;
+    width: 60px;
+}
+
+a.menu-icon {
+    text-indent: 2.1875rem;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+
+a.menu-icon span {
+    width: 20px;
+    left: 20px;
+    top: 12px;
+}
+
+section.tab-bar-section{
+    height: 60px;
+}
+
+section.tab-bar-section.middle {
+    left: 60px;
+    right: 0px;
+    padding: 0;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    line-height: 60px;
+}
+
+.top-bar-section ul li > a {
+    font-size: 1rem;
+}

@@ -1,0 +1,21 @@
+#ad-large-rotator
+{
+    background: #000;
+    height:1550px;
+}
+
+#ad-large-rotator img
+{
+    border:none;
+}
+
+#ad-small-rotator
+{
+    background:#CF3;
+    height:300px;
+	float:left;
+}
+
+#ad-small-rotator img{
+    border: none;
+}

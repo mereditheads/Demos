@@ -1,0 +1,122 @@
+<html>
+	<head>
+    	<!-- Foundation CSS -->
+        <link href="css/foundation/foundation.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css" media="screen">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/app/app.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/cubs_demo.css" type="text/css" media="screen, projection">
+
+        <!--Nivo Slider-->
+        <link rel="stylesheet" href="nivoslider/themes/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivoslider/themes/light/light.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivoslider/themes/dark/dark.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivoslider/themes/bar/bar.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivoslider/nivo-slider.css" type="text/css" media="screen" />
+        
+        <!-- Ad Rotator Script -->
+        <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+        <script>
+		$(function() {
+			var icons = {
+				header: "ui-icon-circle-arrow-e",
+				activeHeader: "ui-icon-circle-arrow-s"
+			};
+			$( "#accordion" ).accordion({
+				icons: icons
+			});
+			$( "#toggle" ).button().click(function() {
+				if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+					$( "#accordion" ).accordion( "option", "icons", null );
+				} else {
+					$( "#accordion" ).accordion( "option", "icons", icons );
+				}
+			});
+		});
+		</script>
+        
+    </head>
+    
+    <body oncontextmenu="return false;">
+    	<div id="container" class="retail">
+            <div class="row">
+                <a href="holycow.html"><img id="cubs_logo" src="images/logo_cubs.png" /></a>
+                <div id="content" class="large-10 columns">
+                    <div id="gear-slider" class="orbit-container" data-options="bullets:false;">
+                        <div class="preloader"></div>
+                        <ul data-orbit>
+                            <li>
+                                <img src="images/gear/slide-gear-bat.png" />
+                            </li>
+                            <li>
+                                <img src="images/gear/slide-gear-jersey.png" />
+                            </li>
+                            <li>
+                                <img src="images/gear/slide-gear-hat.png" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="sub_nav_container">
+                <a href="home.html" id="btnHome">Home</a>
+                <a href="home.html" id="btnBack">Back</a>
+            </div><!--End #sub_navigation-->
+            <div id="nav_tab"><a href="#"></a></div>
+            <ul id="main_nav">
+                <a href="retail.html"><li id="nav1" class="main_nav_btn"><img src="images/navigation/icon_gear.png"><p>Game Gear</p></li></a>
+                <a href="wayfinding.html"><li id="nav2" class="main_nav_btn"><img src="images/navigation/icon_wayfinding.png"/><p>Find Your Way</p></li></a>
+                <a href="orderfood.html"><li id="nav3" class="main_nav_btn"><img src="images/navigation/icon_orderfood.png" /><p>Order Food</p></li></a>
+                <a href="cta.html"><li id="nav4" class="main_nav_btn"><img src="images/navigation/icon_cta.png" /><p>Buy Tickets</p></li></a>
+                <!--<a href="#"><li id="nav5" class="main_nav_btn"><img src="" /><p>Visitor Info</p></li></a>-->
+            </ul><!--End #main_nav-->
+        </div><!--End #container-->
+
+        <script type="text/javascript" src="nivoslider/jquery-1.9.0.min.js"></script>
+        <script type="text/javascript" src="nivoslider/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider({
+                    animSpeed: 500, // Slide transition speed
+                    pauseTime: 10000, // How long each slide will show
+                    directionNav: false, // Next & Prev navigation
+                    controlNav: false, // 1,2,3... navigation
+                    controlNavThumbs: false, // Use thumbnails for Control Nav
+                    pauseOnHover: false, // Stop animation while hovering
+                });
+            });
+        </script>
+
+
+        <script>
+            document.write('<script src=' +
+                    ('__proto__' in {} ? 'lib/zepto' : 'lib/jquery') +
+                    '.js><\/script>')
+        </script>
+
+        <script src="lib/foundation/foundation.js"></script>
+        <!--<script src="lib/foundation/foundation.min.js"></script>-->
+
+        <script src="lib/foundation/foundation.alerts.js"></script>
+        <script src="lib/foundation/foundation.clearing.js"></script>
+        <script src="lib/foundation/foundation.cookie.js"></script>
+        <script src="lib/foundation/foundation.dropdown.js"></script>
+        <script src="lib/foundation/foundation.forms.js"></script>
+        <script src="lib/foundation/foundation.joyride.js"></script>
+        <script src="lib/foundation/foundation.magellan.js"></script>
+        <script src="lib/foundation/foundation.orbit.js"></script>
+        <script src="lib/foundation/foundation.placeholder.js"></script>
+        <script src="lib/foundation/foundation.reveal.js"></script>
+        <script src="lib/foundation/foundation.section.js"></script>
+        <script src="lib/foundation/foundation.tooltips.js"></script>
+        <script src="lib/foundation/foundation.topbar.js"></script>
+
+        <script>
+            $(document).foundation();
+        </script>
+
+
+    </body>
+</html>

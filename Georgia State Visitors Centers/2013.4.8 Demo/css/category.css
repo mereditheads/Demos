@@ -1,0 +1,111 @@
+
+/*-------------Text-------------*/
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #000;
+	font-weight:normal;
+	padding-bottom:15px;
+}
+
+/*-------------Body-------------*/
+body{font-family:Arial, Helvetica, sans-serif;}
+div.container{background: #e3e3e3;}
+
+/*-------------Header = 300px-------------*/
+#header{background:#adadad url('../images/bg/bg_header.png') repeat-y;}
+#info_container{
+	float:left; 
+	width:232px /*274px*/; 
+	height:300px; 
+	background:#e3e3e3 url('../images/bg/bg_logo.png') no-repeat;
+	background-position: 55px 75px;
+}
+#info_content{
+	display:none;
+	margin-left:41px; 
+	margin-right:41px; 
+	color:#FFF; 
+}
+#date_time{margin-top:60px; margin-bottom:20px;}
+.time{font-size:32px;} 
+.date{
+	font-size:24px; 
+	letter-spacing:1px;
+}
+.day{font-size:20px; text-transform:uppercase;}
+.timeofday{font-size:18px; text-transform:uppercase; margin-left:5px;}
+#weather{}
+#weather_icon{float:left;}
+#weather_icon img{width:90%; margin-right:5px;}
+#temp{float:left; padding-top:10px; font-size:26px; font-weight:bold;}
+.low_temp{font-size:20px;}
+#info_header{
+	float:left;
+	margin-top:120px;
+	width:848px;
+	padding-bottom:31px;
+	background:url('../images/bg/bg_headline.png') no-repeat;
+	background-position:bottom left;
+}
+.category_name{
+	padding: 16px 47px;
+	background:#2c2b2a;
+	font-size:48px; 
+	font-family:'Franklin Gothic Medium';
+	color:#FFF;  
+	line-height:50px;
+}
+
+/*-------------Banner-------------*/
+.banner{display:none;}
+.banner img{overflow:hidden;}
+/*#info_container{display:none;}
+#info_header{display:none;}*/
+
+/*-------------Sidebar = Filter-------------*/
+#sidebar{
+	height:1250px;
+	width:262px; 
+	background: #adadad; 
+}
+#filter_container{} 
+#filter_actions{
+	padding-top:16px;
+}
+.filter_btn{
+	padding:16px 31px;
+	border-bottom:solid 1px #888;
+}
+.filter_btn.selected{background: #e3e3e3; text-shadow: none;}
+.filter_btn a{
+	text-decoration:none; 
+	color:#2b2c2a; 
+	font-family:'Franklin Gothic Medium';
+	font-size:18px; 
+	text-transform:uppercase; 
+}
+
+/*-------------Sub-nav (position=absolute)-------------*/
+#sub_navigation{}
+#sub_nav_btn1{text-align:center;}
+#sub_nav_btn2{text-align:center;}
+
+/*-------------Category Container-------------*/
+#category_container{
+	float:left;
+	width:801px;
+    /*height: 1250px; /*define if background needed*/
+}
+#category_grid{padding-left:16px;}
+#category_rows{}
+div.category_row{margin-top: 16px; height:180px;}
+div.category_button_0, div.category_button_1, div.category_button_2, div.category_button_3{
+    float: left;
+    height: 180px;
+    width: 180px;
+    margin-right: 16px;
+}
+
+/*-------------Main Nav-------------*/
+#nav_container{background:#000;}

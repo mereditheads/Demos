@@ -1,0 +1,63 @@
+/*Listing*/
+.gallery{
+    position: relative;
+}
+
+.gallery a.launch{
+    z-index: 10;
+}
+
+.gallery.listing-image{
+    border: solid 1px #ececec;
+}
+
+.gallery.listing-image .orbit-bullets-container,
+.gallery.listing-image .orbit-timer{
+    display: none;
+}
+
+.gallery.listing-image .orbit-container .orbit-prev,
+.gallery.listing-image .orbit-container .orbit-next{
+    top: 50%;
+}
+
+.listing-image{
+    margin-bottom: 1rem;
+}
+
+.description .listing-image{
+    float: left;
+    width: 35%;
+    margin: 0 1rem 1rem 0;
+}
+
+.contact{
+    border-left: solid 1px #ececec;
+    border-right: solid 1px #ececec;
+    text-align: center;
+}
+
+.contact li{
+    padding: .7rem 1.5rem;
+    border-top: solid 1px #ececec;
+}
+
+.contact li:last-child{
+    border-bottom: none;
+}
+
+.hours{
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.listing-map{
+    position: relative;
+    border: solid 1px #ececec;
+}
+
+/*.listing-map .expand{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+}*/

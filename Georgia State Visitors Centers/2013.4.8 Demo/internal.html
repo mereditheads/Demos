@@ -1,0 +1,95 @@
+<html>
+	<head>
+    	<!-- Grid CSS -->
+        <link href="css/blueprint_1080px/screen.css" rel="stylesheet" type="text/css" media="screen">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/product.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/internal.css" type="text/css" media="screen, projection">
+       
+        <!-- #info_container Background Position JQuery -->
+        <!--<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <script>
+		var scrollSpeed = 100;
+		// set the default position
+		var current = 0;
+		// set the direction
+		var direction = 'h';
+		function bgscroll(){
+			// 1 pixel row at a time
+			current -= 1;
+			// move the background with backgrond-position css properties
+			$('#info_container').css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");
+		}
+		//Calls the scrolling function repeatedly
+		 setInterval(bgscroll, scrollSpeed);    
+		</script>-->
+        
+    </head>
+    
+    <body oncontextmenu="return false;">
+    	<div class="container">
+        
+            <div id="header" class="span-35">
+                <div id="info_container">
+                	<div id="info_content">
+                        <div id="date_time"><p class="day">Sunday</p><p class="date">September 24</p><p class="time">1:40<span class="timeofday">pm</span></p></div>
+                        <div id="weather">
+                            <div id="weather_icon"><img src="images/info/weather_rain.png"/></div>
+                            <div id="temp"><p>100 <span class="low_temp">/ 70</span></p></div>
+                        </div>
+                	</div>
+                </div>
+                <div id="product_header">
+                    <p class="product_name">Guest Book</p>
+                    <p class="filter_name">Location1 <span class="sub-filter_name">+ Location2</span></p>
+                </div>
+            </div><!--End #header-->
+            
+            <div id="content">
+                <div id="sidebar" class="span-9">
+                    <div id="filter_container">
+                    	<div id="filter_actions">
+                            
+                        </div>
+                    </div>
+                </div><!--End #sidebar-->
+                <div id="sub_navigation" class="span-9">
+                    <div id="sub_nav_btn1" class="prepend-1 span-3">
+                         <a href="home.html" id="btnHome"><img src="images/navigation/btn_home.png"/></a>
+                    </div>
+                    <div id="sub_nav_btn2" class="span-3 append-1 last">
+                          <a href="#" id="btnBack"><img src="images/navigation/btn_back.png"/></a>
+                    </div>
+                </div><!--End #sub_navigation-->
+                <div id="internal">
+                	<script type="text/javascript" src="https://formscentral.acrobat.com/Clients/Current/FormsCentral/htmlClient/scripts/adobe.form.embed.min.js"></script>
+<script type="text/javascript">
+var fLqks1So5s_2dpEzu6Hn6e_2d2Q = new ADOBEFORMS.EmbedForm({formId:"Lqks1So5s-pEzu6Hn6e-2Q", width:739, transparent:false});
+fLqks1So5s_2dpEzu6Hn6e_2d2Q.display();
+</script>
+                </div>
+            </div><!--End #content-->
+            
+            <div id="nav_container" class="span-35">
+                <div class="main_nav">
+                    <img src="images/navigation/btn_deals.png"/>
+                </div>
+                <div class="main_nav">
+                    <img src="images/navigation/btn_seedo.png">
+                </div>
+                <div class="main_nav">
+                    <a href="internal.html"><img src="images/navigation/btn_guestbook.png" /></a>
+                </div>
+                <div class="main_nav">
+                    <a href="dining.html"><img src="images/navigation/btn_dining.png" /></a>
+                </div>
+                <div class="main_nav">
+                    <img src="images/navigation/btn_visitorinfo.png" />
+                </div>
+            </div><!--End #nav_container-->
+            
+        </div><!--End .container-->
+    </body>
+</html>

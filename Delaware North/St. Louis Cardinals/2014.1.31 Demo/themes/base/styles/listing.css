@@ -1,0 +1,371 @@
+/*
+Base Theme - Listing
+*/
+
+/*=============================================*/
+/*------------- Table of Contents -------------*/
+
+/*
+:: Header
+:: Media
+:: Content Area
+:: Sidebar
+:: Content
+:: Views (Listing)
+    - Image-Only View
+    - Articles View
+    - Bundles View
+*/
+
+/*=============================================*/
+
+/*-------------Header-------------*/
+#header.listing {
+    text-align: center;
+}
+
+#header.listing #page_header {}
+
+/*-------------Content Area-------------*/
+#content_container.listing {}
+
+/*-------------Media-------------*/
+#media {
+    height: 426px; /*12px greater than img height b/c of padding and border*/
+    padding: 5px 0;
+    background: #fff;
+    border-top: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+#map_container {
+    float: left;
+    height: 414px;
+    width: 435px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+#map_container.unavailable {
+    background: url('../images/listing/map_unavailable.png') no-repeat center;
+}
+
+#listing_map {
+    height: 100%;
+    width: 100%;
+}
+
+#image_container {
+    height: 414px;
+    width: 640px;
+    overflow: hidden;
+    background: url('../images/listing/prod_missing.png') no-repeat center;
+    background-size: cover;
+}
+
+img#listing_image {
+    height: auto;
+    width: auto;
+}
+
+/*-------------Content Area-------------*/
+.listing #sidebar,
+.listing #content {
+    height: 814px;
+}
+
+/*-------------Sidebar-------------*/
+.listing #sidebar {
+    background: #fff;
+}
+
+#listing_features{
+    margin: 0;
+}
+
+.listing #sidebar_container li a{
+    padding-left: 60px;
+}
+
+#listing_features li#get_directions a,
+#listing_features li#get_locations a,
+#listing_features li#menu a,
+#listing_features li#offer a,
+#listing_features li#schedule a,
+#listing_features li#services a{
+    background: no-repeat;
+    background-size: 30px;
+    background-position: 12px 50%;
+}
+
+#listing_features li#get_directions a {
+    background-image: url('../images/listing/icon_directions.png');
+}
+
+#listing_features li#get_locations a {
+    background-image: url('../images/listing/icon_locations.png');
+}
+
+#listing_features li#menu a {
+    background-image: url('../images/listing/icon_menu.png');
+}
+
+#listing_features li#offer a {
+    background-image: url('../images/listing/icon_offer.png');
+}
+
+#listing_features li#schedule a{
+    background-image: url('../images/listing/icon_open.png');
+}
+
+#listing_features li#services a{
+    background-image: url('../images/listing/icon_open.png');
+}
+
+/*-------------Content (Listing)-------------*/
+.listing #content {}
+
+#listing_details{
+    float: left;
+    width: 460px;
+    height: 100%;
+    padding: 60px 40px 0 40px;
+    background: #fff;
+    border-right: solid 1px #e3e3e3;
+    color: #666;
+}
+
+#org_details {
+    margin-top: 16px;
+}
+
+.listing #description {
+    max-height: 550px;
+}
+
+#description {
+    padding-top: 20px;
+    overflow-y: auto;
+    border-top: solid 1px #e3e3e3;
+    text-align: justify;
+}
+
+#description ol,
+#description ul {
+    /*list-style-position: inside;*/
+    margin-bottom: 10px;
+    padding: 0 22px;
+}
+
+#description ul {
+    list-style: disc;
+}
+
+#description li {
+    list-style: inherit;
+    padding: 5px 0;
+}
+
+#description p.add_info {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    margin-bottom: 0;
+}
+
+#action{}
+
+#prices {
+    float: left;
+    width: 100%;
+}
+
+#prices ul{
+    padding: 16px;
+    background: #fff;
+    border: solid 1px #e3e3e3;
+    font-size: 1.25em;
+    color: #222;
+    text-align: center;
+}
+
+#prices li {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+#prices ul li:last-child {
+    border-bottom: none;
+}
+
+/*-------------Views (Listing)-------------*/
+.image-only #content,
+.article #content {
+    float: left;
+    width: 730px;
+    height: 1240px;
+    border-top: solid 1px #e3e3e3;
+}
+
+.image-only #sidebar,
+.article #sidebar{
+    width: 350px;
+}
+
+.image-only #sidebar_container,
+.article #sidebar_container{
+    display: none;
+}
+
+.image-only #media,
+.article #media{
+    float: left;
+    width: 350px;
+    height: 362px;
+}
+
+.image-only #image_container,
+.article #image_container {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.image-only #image_container img,
+.article #image_container img{
+    width: auto;
+    height: 100%;
+}
+
+.image-only #listing_details,
+.article #listing_details {
+    width: 100%;
+    height: 100%;
+}
+
+/*Image-Only View*/
+.image-only #listing_details {
+    padding: 20px;
+}
+
+.image-only img#listing_image {
+    height: auto;
+}
+
+.image-only.listing #action{
+    height: auto;
+}
+
+/*Articles View*/
+.article #listing_details {
+    padding-top: 40px;
+}
+
+.article #description {
+    max-height: 1030px;
+    overflow-y: auto;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #ececec;
+    line-height: 1.5em;
+}
+
+
+/*Bundles View*/
+#callout,
+#callout #savings {
+    height: 66px;
+}
+
+#callout {
+    margin-top: 60px;
+}
+
+#callout p, #callout h2 {
+    margin: 0 30px 0 24px;
+}
+
+#callout #savings {
+    width: 100%;
+    background: #e3e3e3;
+}
+
+#callout #savings h2 {
+    padding-right: 24px;
+    line-height: 66px;
+}
+
+#number_attractions {
+    width: 54.9%;
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+#number_attractions p {
+    padding-left: 20px;
+}
+
+#number_attractions p:before {
+    content: "Visit ";
+}
+
+#number_attractions p:after {
+    content: " Attractions";
+}
+
+.bundle #listing_features li:not(#back_to_top) a {
+    /*padding: 12px 16px 10px 60px;*/
+    background: url('../images/listing/icon_info.png') no-repeat;
+    background-size: 30px;
+    background-position: 12px 50%;
+    line-height: 1.2em;
+}
+
+#listing_details img#fade_bottom {
+    position: relative;
+    top: -100px;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+}
+
+#bundle {
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+    padding-bottom: 60px;
+    border-top: solid 1px #e3e3e3;
+}
+
+#bundle_description {
+    padding-top: 20px;
+    border-bottom: solid 1px #e3e3e3;
+    text-align: justify;
+}
+
+.bundle_item {
+    padding-top: 20px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.bundle_item .item_image {
+    width: 380px;
+    height: 235px;
+    margin-bottom: 16px;
+    background: url('../images/listing/prod_missing.png') no-repeat;
+    background-size: cover;
+}
+
+.bundle_item .item_image img {
+    width: 100%;
+    height: auto;
+}
+
+span.value_amount {
+    font-size: 14px;
+    font-style: italic;
+}

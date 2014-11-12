@@ -1,0 +1,28 @@
+
+/*-------------Content Area-------------*/
+#content.menu_display{height:1145px; background:#999 /*this will be opaque 45% #000 to show listing page underneath*/;}
+
+/*-------------Sidebar = Filter-------------*/
+#sidebar.menu_display{
+    float:left;
+    width:270px;
+    height:73.94%; /*percentage less height of listing_media*/
+    margin-top:297px; /*height of listing media*/
+}
+
+#sidebar.menu_display #filter_container{padding-top:60px;}
+
+#menu_selection ul li:not(.selected){padding-left: 74px;}
+#menu_selection ul li:not(.selected) img{display: none; }
+
+/*-------------Menu Display-------------*/
+#menu_display{
+    float:left;
+    height:100%;
+    width: 770px;
+    margin-left:40px;
+}
+#menu_display img{
+    width:100%;
+    height: auto;
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coast Cupboard POS Mock</title>
+
+    <link rel="stylesheet" href="http://www.citycorridor.com/shared/foundation/css/foundation.css" />
+
+    <link rel="stylesheet" href="http://www.citycorridor.com/shared/normalize-foundation-5-0-3-custom-v1.css" />
+
+    <link rel="stylesheet" href="http://www.citycorridor.com/shared/custom-foundation.css" />
+
+    <link rel="stylesheet" href="themes/base/main.css" />
+
+    <link rel="stylesheet" href="../lib/font-awesome-4.0.0/css/font-awesome.min.css">
+
+    <script src="http://www.citycorridor.com/shared/foundation/js/vendor/modernizr.js"></script>
+
+    <!--Nivo Slider-->
+    <link rel="stylesheet" href="../lib/nivoslider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../lib/nivoslider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../lib/nivoslider/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../lib/nivoslider/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../lib/nivoslider/nivo-slider.css" type="text/css" media="screen" />
+
+</head>
+<body>
+
+    <div id="nav">
+        <ul>
+            <li><a href="classes.html"><i class="fa fa-2x fa-calendar"></i>Classes</a></li>
+            <li><a href="shop.html"><i class="fa fa-2x fa-shopping-cart"></i>Shop</a></li>
+            <li><a href="#"><i class="fa fa-2x fa-cutlery"></i>Cook</a></li>
+            <li><a href="lecreuset.html"><i class="fa fa-2x fa-bookmark"></i>Le Creuset</a></li>
+            <li><a href="#"><i class="fa fa-2x fa-money"></i>Offers</a></li>
+            <li><a href="#"><i class="fa fa-2x fa-gift"></i>Bridal Registry</a></li>
+        </ul>
+    </div>
+
+    <div id="container" class="ads">
+        <div id="ad-large-rotator">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <a href="lecreuset.html"><img src="images/ads/ad-large-lecreuset.png" data-thumb="images/ads/ad-large-lecreuset.png" alt="" /></a>
+                    <a href="classes.html"><img src="images/ads/ad-large-classes.png" data-thumb="images/ads/ad-large-classes.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../lib/foundation/js/vendor/jquery.js"></script>
+    <script src="../lib/foundation/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+    <script type="text/javascript" src="../lib/nivoslider/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="../lib/nivoslider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+                animSpeed: 500, // Slide transition speed
+                pauseTime: 10000, // How long each slide will show
+                directionNav: false, // Next & Prev navigation
+                controlNav: false, // 1,2,3... navigation
+                controlNavThumbs: false, // Use thumbnails for Control Nav
+                pauseOnHover: false, // Stop animation while hovering
+            });
+        });
+    </script>
+
+</body>
+</html>

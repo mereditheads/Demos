@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#product_map_location{background:url('../images/product/map_sample.png'); height: 438px;	}
+
+#product_locations{
+	float:left;
+	padding: 50px 0 0 31px;
+	color: #FFF;
+}
+.location{
+	float:left;
+	width:243px;
+	height:190px;
+	margin-right:4px;
+	margin-bottom:5px;
+	background:#555;
+	border: solid 1px #AAA;
+}
+
+.last{margin-right:0; border-right:none;}
+
+.location_details{
+	padding: 22px 22px 10px 22px;
+	height:80px;
+}
+
+.location_name{font-family: 'Avenir-Book', serif; font-size:18px;}
+.location_phone{font-size:16px; margin-top:10px;}
+.location_hours{}
+
+.location img{position:relative; left:16px;}
+
+#filter_actions{display:none;}

@@ -1,0 +1,155 @@
+
+
+/*-------------Header-------------*/
+#header.purchase{height:600px;}
+
+#page_header.purchase{
+    margin:410px 40px 30px 80px /*350px*/;
+}
+
+/*-------------Content Area-------------*/
+#content.purchase{
+    height:1320px;
+    padding-left:80px;
+    background:#fff;
+}
+#content.purchase h2{margin-bottom:40px;}
+#content.purchase p{
+    padding-top:16px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+/*-------------Purchase Options-------------*/
+#purchase_options{
+    /*height: 100%;*/
+    padding-top:80px;
+}
+
+.option_row{
+    margin-right:40px;
+    padding: 24px 0;
+}
+
+.option_description, .quantity_box, .increment_btns, .option_price{float:left;}
+
+.option_description, .quantity_box, .increment_btns{margin-right:2%;}
+
+span.symbol_image{
+    float:left;
+    margin-right:10px;
+    color:#aaa;
+}
+
+.option_description{width:30%;}
+
+.quantity_box{
+    width:10%;
+    background:#e3e3e3;
+    text-align:center;
+}
+
+.increment_btns{
+    width:22%;
+}
+
+a.option_increment_up, a.option_increment_down{
+    padding-top:6px;
+    padding-bottom:2px;
+    background:/*#abd56d*/ -webkit-linear-gradient(#95c83f 20%, #80b543 100%);
+    border: solid 1px #80b543;
+    border-radius:16px;
+    font-size:48px;
+    color:#fff;
+    text-shadow: 1px 1px 0px #80b543;
+}
+a.option_increment_up{
+    float:left;
+    padding-left:14px;
+    padding-right:14px;
+}
+a.option_increment_down{
+    float:right;
+    padding-left:22px;
+    padding-right:22px;
+}
+
+.option_price{
+    width:32%;
+    padding-left:5%;
+}
+.option_price p{
+    text-align:center;
+}
+.option_subtotal{
+    float:none;
+    width:100%;
+    margin-top:74px;
+    border-top: solid 1px #e3e3e3;
+}
+#content.purchase .option_subtotal p{
+    float:right;
+    width:23%;
+    padding: 16px 0;
+    background: #e3e3e3;
+    color:#222;
+    text-align:center;
+}
+
+/*-------------Purchase Total-------------*/
+#purchase_total{
+    height:100%;
+    padding: 80px 80px 0 40px;
+    background: -webkit-linear-gradient(#fefdfe 0%, #eeeeee 100%);
+    border-left: 1px solid #e3e3e3;
+}
+#content.purchase #purchase_total p{color: #222;}
+#content.purchase #purchase_total h3{text-align:center;}
+
+#total_quantity_box, #purchase_total_amount{margin-top:42px;}
+
+#content.purchase #total_quantity_box p, #content.purchase #purchase_total_amount p{
+    float:none;
+    width:70%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #fff;
+    border: solid 1px #e3e3e3;
+    font-size:30px;
+    text-align:center;
+}
+
+#purchase_actions{
+    width: 90%;
+    margin:42px auto 0 auto;
+    border-top:solid 1px #e3e3e3;
+    padding-top: 42px;
+}
+
+#purchase_actions a.action_main_btn{
+    float: left;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+a#buy_cancel_btn{
+    background: /*#000*/ -webkit-linear-gradient(#444 0%, #000 100%);
+    border: solid 1px #000;
+    color:#bcbcbc;
+    text-shadow: 1px 1px 0px #000;
+}
+
+
+/*transaction styles */
+div.buy_start{background: url('../images/purchase/bg_buy_tickets.png')}
+div.buy_processing{background: url('../images/purchase/bg_buy_processing.png')}
+div.buy_swipe{background: url('../images/purchase/bg_buy_swipe.png')}
+div.buy_reswipe{background: url('../images/purchase/bg_buy_reswipe1.png')}
+div.buy_reswipe1{background: url('../images/purchase/bg_buy_reswipe1.png')}
+div.buy_reswipe2{background: url('../images/purchase/bg_buy_reswipe2.png')}
+div.buy_reswipe3{background: url('../images/purchase/bg_buy_reswipe3.png')}
+div.buy_reswipe_failed{background: url('../images/purchase/bg_buy_reswipe_failed.png')}
+div.buy_failed{background: url('../images/purchase/bg_buy_processing_failed.png')}
+div.buy_declined{background: url('../images/purchase/bg_buy_declined.png')}
+div.buy_completed{background: url('../images/purchase/bg_buy_thankyou.png')}
+div.buy_printing{background: url('../images/purchase/bg_buy_printing.png')}

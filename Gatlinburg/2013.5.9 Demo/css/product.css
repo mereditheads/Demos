@@ -1,0 +1,168 @@
+@fontface{
+	font-family:Arvo-Regular;
+	src: url('../fonts/Arvo-Regular.ttf');
+}
+@fontface{
+	font-family:Arvo-Bold;
+	src: url('../fonts/Arvo-Bold.ttf');
+}
+
+/*-------------Body-------------*/
+body{font-family:Arial, Helvetica, sans-serif;}
+
+/*-------------Header = 300px-------------*/
+#header{background: url('../images/bg/bg_info.png') no-repeat; background-position: bottom left;}
+#info_container{
+    float:left;
+    width:274px;
+    height:300px;
+}
+#info_content{
+    display:none;
+    margin-left:41px;
+    margin-right:41px;
+    color:#FFF;
+}
+/*
+#date_time{margin-top:60px; margin-bottom:20px;}
+.time{font-size:32px;}
+.date{
+	font-size:24px;
+	letter-spacing:1px;
+}
+.day{font-size:20px; text-transform:uppercase;}
+.timeofday{font-size:18px; text-transform:uppercase; margin-left:5px;}
+#weather{}
+#weather_icon{float:left;}
+#weather_icon img{width:90%; margin-right:5px;}
+#temp{float:left; padding-top:10px; font-size:26px; font-weight:bold;}
+.low_temp{font-size:20px;}
+*/
+#product_header{
+	float:left;
+	width:726px; /*806*/ /*less 80px for margin-right*/
+    height:64px;
+    margin-right: 80px;
+	padding-top:220px;
+    padding-bottom:16px;
+	background:url('../images/bg/bg_header_product.png') no-repeat;
+	background-position: top right;
+}
+.product_name{
+	padding:0 47px;
+	font-size:36px;
+	font-family:'Arvo-Bold', 'Georgia', serif;
+	color:#261408;
+    font-weight: bold;
+	line-height:44px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.filter_name{
+	display:none;
+	font-size: 18px;
+	color: #EEE;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+	line-height:26px; 
+}
+.sub-filter_name{
+	display:none;
+	text-transform: none;
+}
+
+/*-------------Media = 450px-------------*/
+#product_media{
+	margin-top:16px;
+    padding:5px 0;
+	height: 438px;
+	background: #FFF /*#444*/;
+}
+#product_map{
+	float:left;
+	width:398px;
+	margin-right:5px;
+	height: 438px;
+    overflow: hidden;
+}
+#product_map img{height:100%;}
+#product_image_container{
+	float:left;
+	width:677px;
+	height: 438px;
+	overflow: hidden;
+}
+#product_image_container img{height:100%;}
+
+/*-------------Sidebar = Filter-------------*/
+#sidebar{ 
+	height: 796px /*812px*/;
+	width:274px;
+}
+#filter_container{} 
+#filter_actions{
+	padding-top:16px;
+}
+#product_details_actions_extra{margin-top:16px;}
+
+.actions_extra{
+    padding:10px 31px 30 16px;
+    background: url('../images/bg/bg_action_btn.png') no-repeat;
+    background-position: bottom;
+    text-align: center;
+}
+.actions_extra.last{background: none;}
+.actions_extra a{
+    text-decoration:none;
+    color:#552d10;
+    font-family:'Georgia', serif;
+    font-size:20px;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+
+/*-------------Sub-nav (position=absolute)-------------*/
+#sub_navigation{}
+#sub_nav_btn1{text-align:center;}
+#sub_nav_btn2{text-align:center;}
+
+/*-------------Content-------------*/
+#content{background: url('../images/bg/bg_content_product.png') no-repeat;}
+
+/*-------------Listing Info-------------*/
+#product_details{
+	float:left;
+	padding-top: 50px;
+	color: #552d10;
+	font-size: 16px;
+}
+#product_details h1{
+    margin: 31px 31px 16px 31px;
+	font-family:'Georgia', serif;
+    /*font-family:'Arvo-Regular', serif;*/
+    font-size: 20px;
+	font-weight:bold;
+	line-height:30px;
+    color: #2b2c2a;
+}
+#product_details_vendor{float:left; background:#fff; border-radius: 5px; box-shadow: 0 2px 8px #999;}
+#product_details_vendor p{margin:0 31px;}
+/*add padding (and remove from #product_details) if action btn is to touch media edge*/
+#product_details_display_hours{margin-top:16px;margin-bottom: 31px;}
+
+#product_details_actions_main{
+	float:left;
+	width:280px;
+}
+#product_details_actions_main a{
+}
+
+#product_details_display{margin-top: 8px; background:#fff; border-radius: 5px; box-shadow: 0 2px 8px #999;}
+#product_details_display_description p{margin:0 31px 31px 31px;font-family: 'Georgia', serif; font-style: italic; text-align: justify; }
+#product_details_display_prices{width:192px; margin: -16px 0 0 31px; background:#fff; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+#product_details_display_prices h1{margin-left:0; text-align:center;}
+#product_details_display_prices ul{list-style-type: none; padding:0 0 31px 0; margin:0 31px 0 0; text-align:center; }
+#product_details_display_prices ul li{}
+
+/*-------------Main Nav-------------*/
+#nav_container{background: #000;}

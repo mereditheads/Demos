@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@fontface{
+	font-family:Arvo-Regular;
+	src: url('../fonts/Arvo-Regular.ttf');
+}
+@fontface{
+	font-family:Arvo-Bold;
+	src: url('../fonts/Arvo-Bold.ttf');
+}
+
+
+
+#header{background:none;}
+
+#content{background:none;}
+
+#internal{
+	float:left;
+	/*width:801px;*/ /*without padding*/
+	width:739px;
+	margin: 0px 165px 0 165px;
+    padding:31px 0;
+    /*height: 1250px; /*define if background needed*/
+    background: url('../images/bg/bg_internal.png') repeat;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px #999;
+}
+#internal h1{
+    text-align: center;
+    margin:16px 0;
+    font-family:'Arvo-Bold', 'Georgia', serif;
+    font-weight: bold;
+    color:#261408;
+    text-shadow: 1px 1px 1px #fff;
+}
+#sidebar{ 
+	width:0;
+    height:1250px;
+}

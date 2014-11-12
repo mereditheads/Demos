@@ -1,0 +1,22 @@
+#ad-large-rotator
+{
+    height:1350px;
+    margin-top: 250px;
+    background: #03a0db;
+}
+
+#ad-large-rotator img
+{
+    border:none;
+}
+
+#ad-small-rotator
+{
+    float:left;
+	width:100%;
+    height:250px;
+}
+
+#ad-small-rotator img{
+    border: none;
+}

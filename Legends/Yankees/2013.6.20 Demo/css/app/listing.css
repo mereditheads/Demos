@@ -1,0 +1,70 @@
+
+/*-------------Header=455px-------------*/
+#header.listing{height:455px;}
+
+#page_header.listing{
+    margin:280px 40px 30px 50px;
+}
+
+/*-------------Content Area-------------*/
+#content.listing{height:1145px; }
+
+/*-------------Media-------------*/
+#listing_media{
+    height: 297px; /*12px greater than img height b/c of padding and border*/
+	padding:5px 0;
+	background: #fff;
+	border-top:solid 1px #000;
+	border-bottom:solid 1px #e3e3e3;
+}
+#listing_map_container{
+    float:left;
+    height: 285px;
+    width:615px;
+    overflow: hidden;
+}
+#listing_map{width:100%; height:100%;}
+#listing_image_container{
+    float:left;
+    height: 285px;
+    width:460px;
+    margin-right:5px;
+    overflow: hidden;
+}
+img#listing_image {height:auto; width:100%;}
+
+/*-------------Sidebar = Filter-------------*/
+#sidebar.listing{
+    float:left;
+    width:270px;
+    height:73.94%; /*percentage less height of listing_media*/
+    background: #fff;
+}
+#sidebar.listing #filter_container{padding-top:66px;}
+
+/*-------------Listing Info-------------*/
+#listing_details_display{
+    height:73.94%; /*percentage less height of listing_media*/
+    padding:80px 40px 30px 40px;
+    background:#fff;
+    color:#666;
+}
+
+#listing_details_organization{margin-bottom:24px;}
+
+#listing_details_description{text-align: justify;}
+
+#listing_details_description p.add_info{float:left; width: 45%; margin-right:5%; margin-bottom:0;}
+
+#action_main.listing{
+    height:73.94%; /*percentage less height of listing_media*/
+    padding:60px 40px 0 40px;
+    border-left: solid 1px #e3e3e3;
+    font-size:20px;
+    color:#666;
+}
+
+a#purchase_btn{float: left; width: 100%; margin-bottom: 40px;}
+
+#listing_details_prices{}
+#listing_details_prices ul{list-style-type: none; margin:0;}

@@ -1,0 +1,52 @@
+
+body{
+    margin: 0;
+    background: #000;
+}
+
+#ticket1{
+    background: url('../images/bg_naturalhistorymuseum.png') no-repeat;
+}
+
+#restaurant1{
+    background: url('../images/bg_itrulli.png') no-repeat;
+}
+
+#container{
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+}
+
+#container img{
+    width: 100%;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+#container.fade-in{
+    padding-top: 455px;
+}
+
+#container.fade-in img{
+    margin-top: -455px;
+}
+
+.fade-in{
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+    -webkit-animation-duration:.4s;
+    -moz-animation-duration:.4s;
+    animation-duration:.4s;
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}

@@ -1,0 +1,45 @@
+
+/*-------------Content Area-------------*/
+#content.offer_display{height:1145px; background:#999 /*this will be opaque 45% #000 to show listing page underneath*/;}
+
+/*-------------Sidebar = Filter-------------*/
+#sidebar.offer_display{
+    float:left;
+    width:270px;
+    height:73.94%; /*percentage less height of listing_media*/
+    margin-right:40px;
+    /*background:#666;*/
+    /*padding-right:40px;*/
+}
+
+#sidebar.offer_display #filter_container{padding-top:66px;}
+
+#offer_selection ul li:not(.selected){padding-left: 74px;}
+#offer_selection ul li:not(.selected) img{display: none; }
+
+/*-------------Offer Display-------------*/
+.offer{
+    margin-bottom: 24px;
+    border-bottom:solid 1px #e3e3e3;
+}
+
+#offer_display{
+    float:left;
+    height:73.94%; /*percentage less height of listing_media*/
+    width:440px;
+    padding: 80px 40px 0 40px;
+    background: #fff;
+}
+
+/*-------------Offer Action-------------*/
+#offer_action{
+    float:left;
+    height:73.94%; /*percentage less height of listing_media*/
+    width:330px;
+    padding:60px 40px 0 40px;
+    background: -webkit-linear-gradient(#faf9fa 0%, #eeeeee 100%);
+    border-left: solid 1px #e3e3e3;
+}
+
+a#print_offer_btn{float: left; width: 100%; margin-bottom: 40px;}
+

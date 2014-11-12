@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Avenir-Book;
+    src: url('fonts/Avenir-Book.otf');
+}
+
+/*@font-face {
+    font-family: Avenir-Book-Heavy;
+    src: url('fonts/Avenir-Book.otf');
+}*/
+
+body{
+    font-family: Avenir-Book;
+    background: black;
+}
+
+a, img {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+#nav_container
+{
+    background: black;
+    height: 420px;
+}
+
+
+#sub_navigation
+{
+    background:#dcdddf;
+    height: 75px;
+    text-align: center;
+    color: #707070;
+    font-size: 20px;
+    /*margin: -75px 0px 0px 0px;*/
+}
+
+#sub_navigation h2{
+    color:#ffffff;
+    font-size: 20px;
+}
+div.sub_navigation_column{
+    display: table;
+    height: 75px;
+}
+span.sub_navigation_column_contents{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}

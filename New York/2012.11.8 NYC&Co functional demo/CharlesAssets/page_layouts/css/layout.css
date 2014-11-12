@@ -1,0 +1,60 @@
+/*@font-face {
+    font-family: Avenir-Book;
+    src: url('fonts/Avenir-Book.otf');
+}*/
+
+/*@font-face {
+    font-family: Avenir-Book-Heavy;
+    src: url('fonts/Avenir-Book.otf');
+}*/
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: #232324;
+}
+
+a, img {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+#sidebar{
+	float:left;
+	border-right:solid 1px #404144;
+	margin-right:-1px;
+}
+
+#nav_container
+{
+    background: black;
+    height: 370px;
+}
+
+
+#sub_navigation
+{
+	float:left;
+	clear:none;
+    height: 62px;
+	background-color:#000;
+}
+/*div.sub_navigation_column{
+    display: table;
+	text-align:center;
+}
+div.sub_navigation_column a{
+	color:#ffffff;
+    font-size: 26px;
+}
+span.sub_navigation_column_contents{
+    display: table-cell;
+    vertical-align: middle;
+	padding-left:31px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	color:#bcbec0;
+	font-size:17px;
+}*/

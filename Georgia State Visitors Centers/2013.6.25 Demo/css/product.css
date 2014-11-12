@@ -1,0 +1,169 @@
+
+
+/*-------------Text-------------*/
+h1{
+    font-family:'Franklin Gothic Medium';
+	font-size: 24px;
+	color: #2b2c2a;
+	padding-bottom:15px;
+}
+
+/*-------------Body-------------*/
+body{font-family:Arial, Helvetica, sans-serif;}
+div.container{background: #e3e3e3;}
+
+/*-------------Header = 300px-------------*/
+#header{background:#adadad url('../images/bg/bg_header.png') repeat-y;}
+#info_container{
+	float:left; 
+	width:232px /*274px*/; 
+	height:300px; 
+	background:#e3e3e3 url('../images/bg/bg_logo.png') no-repeat;
+	background-position: 55px 75px;
+}
+#info_content{
+	display:none;
+	margin-left:41px; 
+	margin-right:41px; 
+	color:#FFF; 
+}
+#date_time{margin-top:60px; margin-bottom:20px;}
+.time{font-size:32px;} 
+.date{
+	font-size:24px; 
+	font-family: 'Avenir-Book', sans-serif; 
+	letter-spacing:1px;
+}
+.day{font-size:20px; text-transform:uppercase;}
+.timeofday{font-size:18px; text-transform:uppercase; margin-left:5px;}
+#weather{}
+#weather_icon{float:left;}
+#weather_icon img{width:90%; margin-right:5px;}
+#temp{float:left; padding-top:10px; font-size:26px; font-weight:bold;}
+.low_temp{font-size:20px;}
+#product_header{
+	float:left;
+	margin-top:120px;
+	width:848px;
+	padding-bottom:31px;
+	background:url('../images/bg/bg_headline.png') no-repeat;
+	background-position:bottom left;
+}
+.product_name{
+	padding: 16px 47px;
+	background:#2c2b2a;
+	font-size:48px; 
+	font-family:'Franklin Gothic Medium';
+	color:#FFF;  
+	line-height:50px;
+}
+.filter_name{
+	display:none;
+	font-size: 18px;
+	color: #EEE;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+	line-height:26px; 
+}
+.sub-filter_name{
+	display:none;
+	text-transform: none;
+}
+
+/*-------------Media = 450px-------------*/
+#product_media{
+	padding:5px 0;
+	height: 438px;
+	background: #FFF /*#444*/;
+}
+#product_map{
+	float:left;
+	width:398px;
+	margin-right:5px;
+	height: 438px;	
+	background: url('../images/product/map_sample.png');
+}
+#product_image_container{
+	float:left;
+	width:677px;
+	height: 438px;
+	overflow: hidden;
+}
+#product_image_container img{height:100%;}
+
+/*-------------Sidebar = Filter-------------*/
+#sidebar{ 
+	height:812px;
+	width:274px;
+	background: #adadad url('../images/bg/bg_sidebar.png') repeat-y right;
+}
+#filter_container{} 
+#filter_actions{
+	padding-top:16px;
+	
+	/*text-shadow: 1px 1px 1px #F60; */
+	text-transform:uppercase; 
+}
+#product_details_actions_extra{margin-top:16px;}
+
+.actions_extra{
+	flaot:left;
+	width:274x;
+	margin-bottom:6px;
+	padding-bottom:12px;
+	background: url('../images/product/bg_action_btn.png') no-repeat bottom right;
+}
+.actions_extra a{
+	text-decoration:none; 
+	color:#FFF; 
+}
+
+.actions_extra_link{
+	padding:16px 31px;
+	background:#f7821e; 
+	font-family:'Franklin Gothic Medium';
+	font-size:18px; 
+}
+
+/*-------------Sub-nav (position=absolute)-------------*/
+#sub_navigation{}
+#sub_nav_btn1{text-align:center;}
+#sub_nav_btn2{text-align:center;}
+
+/*-------------Content-------------*/
+#content{background:none;}
+
+/*-------------Listing Info-------------*/
+#product_details{
+	float:left;
+	padding-top: 50px;
+	color: #777;
+	font-size: 16px;
+}
+#product_details_vendor{float:left; background:none; /*padding-top: 50px;*/}
+#product_details_vendor p{font-style: italic;}
+/*add padding (and remove from #product_details) if action btn is to touch media edge*/
+#product_details_actions_main{
+	float:left; 
+	width:196px;
+	padding:16px 0 16px 47px;
+	background:#8dc540 url('../images/product/bg_action_main_btn.png') no-repeat -10 center;
+	border-bottom: solid 6px #4c4e4f;
+	/*box-shadow: 5px 3px 0px #4c4e4f;*/
+}
+#product_details_actions_main a{
+	font-family: 'Franklin Gothic Medium';
+	font-size:24px;
+	color:#FFF; 
+	text-transform:uppercase;
+	text-decoration: none;
+}
+#product_details_display_hours{background:none; margin-top:31px;}
+#product_details_display{background:none; margin-top: 31px; border-right:solid 1px #adadad;}
+#product_details_display_description{text-align: justify; margin-right:-1px;}
+#product_details_display_prices{margin-top: 31px;}
+#product_details_display_prices ul{list-style-type: none; padding:0; margin:0;}
+#product_details_display_prices ul li{}
+
+/*-------------Main Nav-------------*/
+#nav_container{background: #000;}

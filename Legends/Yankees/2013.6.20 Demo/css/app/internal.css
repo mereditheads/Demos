@@ -1,0 +1,17 @@
+/* Internal header is same as listing*/
+
+/*-------------Sidebar (Filter & Sub-Nav)-------------*/
+#sidebar.internal{
+    float:left;
+    width:270px;
+    height:100%;
+}
+
+#sidebar.internal #filter_container{
+    padding-top:60px;
+}
+
+#internal{
+	padding-top: 3em;
+    /*height: 1250px; /*define if background needed*/
+}

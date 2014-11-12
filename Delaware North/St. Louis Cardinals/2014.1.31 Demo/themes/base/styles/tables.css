@@ -1,0 +1,8 @@
+table tr {
+    border-bottom: solid 1px #e3e3e3;
+}
+
+table img.small {
+    max-width: 100px;
+    max-height: 40px;
+}

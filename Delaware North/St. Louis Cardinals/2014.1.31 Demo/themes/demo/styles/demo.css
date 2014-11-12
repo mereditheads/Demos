@@ -1,0 +1,299 @@
+/*
+St. Louis Demo Theme - Styles to override Base and St. Louis Cardinals branding.
+*/
+
+/*=============================================*/
+/*------------- Table of Contents -------------*/
+
+/*
+:: Foundation
+:: Text & Global
+:: Home
+:: Ads
+:: Header
+:: Content Area
+    - content_container
+    - sidebar
+    - content
+    - filter_btn
+    - tab
+    - action_btn
+:: Category Page
+:: Preferred & Badges (Listing Buttons)
+:: Listing Page
+:: Views (Listing)
+    - Image-Only View
+    - Article View
+    - Bundles View
+:: Directions Page
+:: Locations Page
+:: Special Offer Page
+:: Purchase Page
+:: Sub-nav
+:: Main-nav
+*/
+
+/*
+buttons:
+light navy = #001d63
+medium navy = #01194d
+dark navy = #03153c
+
+secondary buttons:
+light gray blue = #676e7c;
+dark gray blue = #5b626e;
+
+text:
+dark blue = #002061
+*/
+
+/*=============================================*/
+
+/*------------- Foundation -------------*/
+body{
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.row{
+    max-width: 100%;
+}
+
+.button{
+    margin: 0;
+    font-weight: normal;
+    background: -webkit-linear-gradient(#001d63, #01194d) !important;
+    border: none;
+}
+
+.button.secondary{
+    margin: 0;
+    font-weight: normal;
+    background: -webkit-linear-gradient(#676e7c, #5b626e) !important;
+    color: #fff;
+}
+
+.button.secondary:hover{
+    color: #fff;
+}
+
+/*------------- Text & Global - 1em=16px -------------*/
+h2, h3{color: #002061;}
+
+h2{
+    font-family: 'Arvo', serif;
+    font-size: 24px;
+}
+h3{
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3, h4 {}
+a, p, ul {}
+
+#container{
+    background: #000;
+}
+
+#container.home{background:url('../images/bg_homeheader.png') no-repeat;}
+#container.orderfood{background: url('../images/screen/interface1.6-category-orderfood1.jpg');}
+#container.orderfood-options{background: url('../images/orderfood/bg-orderfood.png');}
+#container.wayfinding{background: url('../images/screen/interface1.6-category-wayfinding-vendor1.jpg');}
+#container.listing{background: url('../images/screen/interface1.6-listing1.jpg');}
+#container.gear{background: url('../images/screen/interface1.6-category-gear1.jpg');}
+
+/*------------- Ads -------------*/
+#ad-large-rotator
+{
+    float: left;
+    height:1550px;
+    width: 1080px;
+    margin-top: 50px;
+    background: #03a0db;
+}
+
+#ad-large-rotator img
+{
+    border:none;
+}
+
+/*-------------  Client styles -------------*/
+#header {
+    /*height: 360px;*/
+}
+
+#content_container{
+    background: #fff;
+}
+
+.orderfood-options #content_container,
+.listing #content_container{
+    background: none;
+}
+
+#navigation{
+    float: left;
+    height: 320px;
+}
+
+/*------------- Custom styles -------------*/
+.content{
+    height: 100%;
+    background: #f5f5f5;
+    border-right: solid 1px #e3e3e3;
+}
+
+.sidebar{
+    padding: 0;
+}
+
+.sidebar .button{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+/* Wayfinding */
+#vendor_list{
+    position: relative;
+    z-index: 1;
+    overflow: scroll;
+    padding-bottom: 20px;
+}
+
+#vendor_list ul{
+    margin-top: 30px;
+}
+
+#map_collapsed{
+    position: relative;
+    z-index: 1;
+    -webkit-transition:width 2s;
+    transition:width 2s;
+    padding: 0;
+}
+
+#map_collapsed img{overflow: scroll; height: 100%; width: auto;}
+
+#map_expanded{
+    position:absolute;
+    left: -1080px;
+    z-index: 100;
+    width: 1130px;
+    height: 1042px;
+    background: #03a0db;
+}
+#map{
+    float:left;
+    width: 1080px;
+}
+a#expand{
+    position:absolute;
+    left: 0;
+    z-index: 100;
+    width: 50px;
+    height: 100px;
+    margin-top: 480px;
+    background: #e3e3e3;
+}
+.active{
+    left: 0;
+}
+
+.hide{
+    left: -1080px;
+}
+
+/* Order Food */
+.orderfood .menu{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.orderfood .menu h2{
+    margin-bottom: 30px;
+}
+
+.orderfood .menu li{
+    margin-bottom: 10px;
+}
+
+/* Gear */
+.gear ul{
+    padding-top: 50px;
+    text-align: center;
+}
+
+/*------------- Sub-nav -------------*/
+#sub_nav_container {
+    background: #464b56;
+    border-top: solid 1px #000;
+}
+
+#sub_nav_container a {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    background: -webkit-linear-gradient(#676e7c, #5b626e);
+    font-size: 2em;
+}
+
+a#btnHome {
+    padding-right: 92px;
+    padding-left: 91px;
+    border-right-color: #e3e3e3;
+}
+
+a#btnBack {
+    padding-right: 99px;
+    padding-left: 99px;
+    border-left-color: #e3e3e3;
+}
+
+/*------------- Main-nav -------------*/
+#nav_tab{
+    background:#000;
+    border-top:none;
+}
+
+#nav_tab a{border-color: transparent transparent #666 transparent;}
+#nav_tab a.raised{border-color: #666 transparent transparent transparent;}
+
+ul#main_nav{
+    padding: 0;
+    border-top: solid 1px #000;
+    background:#000 !important;
+}
+
+li.main_nav_btn{
+    width:270px;
+    margin: 0;
+    background: -webkit-linear-gradient(#001d63, #03153c) !important;
+    border-radius: 0;
+    border-right: solid 1px #000;
+}
+
+li.main_nav_btn:last-child{
+    border-right: none;
+}
+
+ul#main_nav li.main_nav_btn{opacity: 1;}
+
+.main_nav_btn img{
+    margin-top:0;
+}
+
+#nav1 {}
+#nav2 {}
+#nav3 {}
+#nav4 {}
+
+ul#main_nav.raised li.main_nav_btn p{
+    padding: 2rem;
+    background: #000;
+    font-size: 1.75em;
+    color: #fff;
+}

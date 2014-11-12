@@ -1,0 +1,120 @@
+/*
+@font-face {
+    font-family: Avenir-Book;
+    src: url('fonts/Avenir-Book.otf');
+}
+
+@font-face {
+    font-family: Avenir-Book-Heavy;
+    src: url('fonts/Avenir-Book.otf');
+}
+*/
+
+hr.blank{
+    border:0px;
+}
+
+body{
+   
+}
+
+h1{
+    font-size: 20px;
+	color: #bcbec0;
+	font-weight:bold;
+	padding-bottom:15px;
+}
+
+div.container{
+    height: 1920px;
+	background: url('../images/bg/bg_main.png') no-repeat;
+}
+
+#product_header{
+    background: #636366;
+}
+#product_title{
+	height: 150px;
+	padding:150px 31px 0 31px;
+    background: #232324;
+	font-size:48px;
+    color:#fff;
+	background-image: url('../images/bg/bg_info.png');
+}
+#filter_container{
+	background-color:#000;
+	height: 665px;
+}
+.filter{font-size: 18px; text-transform: uppercase; color: #bcbec0;}
+.sub-filter{text-transform: none;}
+#product_media{
+	padding: 31px 0;
+	height: 461px;
+}
+#product_map{
+	background-color:#FF0033;
+	float:left;
+	height: 461px;
+}
+#product_image_container{
+	float:left;
+}
+#product_image_container img{
+	width:100%;
+}
+
+#product_actions{
+	float:left;
+	background-color:#000;
+}
+/*#product_actions a{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:17px;
+	text-decoration:none;
+}
+.alignright{float:right;}
+*/
+#product_details_actions_main{
+    padding:50px 31px 16px 31px;
+	border-top:solid 1px #404144;
+	border-bottom:solid 1px #404144;
+}
+#product_details_actions_extra{
+}
+div.actions_extra{
+    padding:16px 31px;
+	border-bottom:solid 1px #404144;
+}
+#product_details{
+	float:left;
+	padding-top: 50px;
+	color: #FFF;
+	font-size: 15px;
+}
+#product_details_vendor{}
+#product_details_display{}
+#product_details_display_hours{}
+#product_details_display_description{
+	margin-top: 31px;
+    text-align: justify;
+	border-right:solid 1px #636366;
+	padding-right:31px;
+}
+#product_details_display_prices{
+	margin-top: 31px;
+   /* font-size: 15px;
+	padding:50px 0 31px 31px;
+	background-color: #232324;*/
+}
+#product_details_display_prices ul{
+    list-style-type: none;
+	padding:0;
+	margin:0;
+}
+#product_details_display_prices ul li{
+	color:#FFF;	
+}
+
+.span-9 {width:279px;}
+.span-25 {width:765px;}

@@ -1,0 +1,128 @@
+﻿body{ color: #000;}
+.travelMetrics h4
+{
+    font-size: 150%;
+}
+.startLocation, .endLocation
+{
+    font-size: 125%;
+    width: 100%;
+    overflow: auto;
+}
+.startLocation span, .endLocation span
+{
+    display: block;
+    float: left;
+    font-size: 30px;
+    text-indent: 4px;
+    text-align: left;
+    font-family: Arial;
+    padding-top: 0px;
+    margin-top: -4px;
+}
+.startLocation span{ color: #390; }
+.endLocation span{ color: #E91C24; }
+        
+.itineraryItems
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.itineraryItems li
+{
+    padding: 5px 0 5px 40px;
+    margin-bottom: 8px;
+    position: relative;
+}
+.itineraryItems li.ArriveFinish, .itineraryItems li.DepartStart { padding: 5px 0 5px 40px; }
+        
+.itineraryItems li .travelDistance
+{
+    font-size: 13px;
+    color: #666;
+}
+.itineraryItems li .instruction
+{
+    font-size: 125%;
+    display: block;
+    width: auto;
+    float: none;
+}
+.itineraryItems li span
+{
+    margin-top: 18px;
+    position: absolute;
+    margin-left: -40px;
+    width: 30px;
+    height: 30px;
+    background: transparent url(shellDirections_blackBkg.png) no-repeat 0 -1250px;
+}
+.itineraryItems li.ArriveFinish span, .itineraryItems li.DepartStart span { display:none; }
+
+.itineraryItems li span.dd_MIconbear_left {
+    background-position: 0 -873px;
+}
+.itineraryItems li span.dd_MIconbear_right {
+    background-position: 0 -904px;
+}
+.itineraryItems li span.dd_MIconkeep_left {
+    background-position: 0 -966px;
+}
+.itineraryItems li span.dd_MIconkeep_right {
+    background-position: 0 -935px;
+}
+.itineraryItems li span.dd_MIconstay_left {
+    background-position: 0 -377px;
+}
+.itineraryItems li span.dd_MIconstay_right {
+    background-position: 0 -718px;
+}
+.itineraryItems li span.dd_MIconmerge {
+    background-position: 0 -811px;
+}
+.itineraryItems li span.dd_MIconmerge_left {
+    background-position: 0 -532px;
+}
+.itineraryItems li span.dd_MIconmerge_right {
+    background-position: 0 -439px;
+}
+.itineraryItems li span.dd_MIconexit_left {
+    background-position: 0 -470px;
+}
+.itineraryItems li span.dd_MIconexit_right {
+    background-position: 0 -501px;
+}
+.itineraryItems li span.dd_MIconenter_roundabout {
+    background-position: 0 -656px;
+}
+.itineraryItems li span.dd_MIconenter_roundabout_left {
+    background-position: 0 -594px;
+}
+.itineraryItems li span.dd_MIconexit_roundabout {
+    background-position: 0 -625px;
+}
+.itineraryItems li span.dd_MIconexit_roundabout_left {
+    background-position: 0 -842px;
+}
+.itineraryItems li span.dd_MIconstraight {
+    background-position: 0 -315px;
+}
+.itineraryItems li span.dd_MIconturn_left {
+    background-position: 0 -346px;
+}
+.itineraryItems li span.dd_MIconturn_right {
+    background-position: 0 -408px;
+}
+.itineraryItems li span.dd_MIconu_turn {
+    background-position: 0 -687px;
+}
+.itineraryItems li span.dd_MIconu_turn_right {
+    background-position: 0 -780px;
+}
+.itineraryItems li span.dd_MIcontransit {
+    background-position: 0 -749px;
+}
+.itineraryItems li span.dd_MIconwalk {
+    background-position: 0 -563px;
+}

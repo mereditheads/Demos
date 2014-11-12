@@ -1,0 +1,322 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POS Prototype - Listing</title>
+
+    <link rel="stylesheet" href="http://www.citycorridor.com/shared/foundation/css/foundation.css" />
+
+    <!--Foundation Custom-->
+    <link rel="stylesheet" href="http://www.citycorridor.com/shared/normalize-foundation-5-0-3-custom-v1.css" />
+
+    <link rel="stylesheet" href="http://www.citycorridor.com/shared/custom-foundation.css" />
+    <link rel="stylesheet" href="../css/custom-foundation-tablet.css" />
+
+    <!--Tablet App Stylesheets-->
+    <link rel="stylesheet" href="../themes/base/ads.css" />
+    <link rel="stylesheet" href="../themes/base/layout.css" />
+
+    <!--Smart Destinations
+    <link rel="stylesheet" href="themes/smartdest/main.css" />-->
+
+    <link href='http://fonts.googleapis.com/css?family=Questrial|Glegoo|Bitter:400,400italic|Sanchez:400,400italic|Roboto+Slab' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="../../lib/font-awesome-4.0.0/css/font-awesome.min.css">
+
+    <script src="http://www.citycorridor.com/shared/foundation/js/vendor/modernizr.js"></script>
+
+</head>
+<body>
+
+    <div class="off-canvas-wrap">
+        <div class="inner-wrap">
+            <nav class="tab-bar">
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+                </section>
+
+                <section class="middle tab-bar-section">
+                    <nav class="top-bar" data-topbar>
+                        <section class="top-bar-section">
+                            <ul class="left">
+                                <li>
+                                    <a href="home.html"><i class="fa fa-lg fa-home"></i>Home</a>
+                                </li>
+                                <li>
+                                    <a href="cart.html"><i class="fa fa-lg fa-shopping-cart"></i>Cart</a>
+                                </li>
+                            </ul>
+                            <ul class="right">
+                                <li class="has-dropdown">
+                                    <a href="#"><i class="fa fa-lg fa-user"></i>Welcome Name!</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Sign Out</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a id="close" href="index.html">Exit</a>
+                                </li>
+                            </ul>
+                        </section>
+                    </nav>
+                </section>
+
+            </nav>
+
+            <aside class="left-off-canvas-menu">
+                <ul class="off-canvas-list">
+                    <li><label>Categories</label></li>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                    <li><a href="#">Category 3</a></li>
+                    <li><a href="#">Category 4</a></li>
+                    <li><label>By Location</label></li>
+                    <li><a href="#">Location 1</a></li>
+                    <li><a href="#">Location 2</a></li>
+                    <li><a href="#">Location 3</a></li>
+                    <li><a href="#">Location 4</a></li>
+                    <li><label>Filter By</label></li>
+                    <li><a href="#">Nearby</a></li>
+                    <li><a href="#">Price Range 1</a></li>
+                    <li><a href="#">Price Range 2</a></li>
+                    <li><a href="#">Price Range 3</a></li>
+                    <li><a href="#">Price Range 4</a></li>
+                </ul>
+            </aside>
+
+            <section class="main-section">
+                <!-- begin page content -->
+
+    <div id="container">
+        <div id="header" class="row">
+            <h1 class="section-title">
+                Listing Name
+            </h1>
+        </div>
+
+        <div class="row">
+            <div class="large-4 columns">
+                <div class="gallery listing-image">
+                    <a class="button secondary launch" href="#"><i class="fa fa-lg fa-plus"></i></a>
+                    <ul class="example-orbit" data-orbit>
+                        <li>
+                            <img src="../images/image-listing-734x500.png" alt="slide 1" />
+                        </li>
+                        <li>
+                            <img src="../images/image-listing-734x500.png" alt="slide 2" />
+                        </li>
+                        <li>
+                            <img src="../images/image-listing-734x500.png" alt="slide 3" />
+                        </li>
+                    </ul>
+                </div>
+                <!--<img class="listing-image" src="images/image-listing-734x500.png">-->
+                <div class="panel description">
+                    <p>
+                        Transport yourself for the afternoon to a corner bistro in Paris. Sip a glass of wine and enjoy rustic bistro cuisine. Learn classic bistro recipes that have been enjoyed over centuries in France. These classic dishes will be a favorite on your dinner table for years to come.
+                    </p>
+                    <a href="#">Read More...</a>
+                </div>
+            </div>
+            <div class="large-3 columns">
+                <ul class="contact">
+                    <li>(843) 888-9999</li>
+                    <li>www.website.com</li>
+                </ul>
+                <div class="panel hours">
+                    <h3>Hours</h3>
+                    <p class="small">
+                        Bar opens nightly at 5PM
+                        Sun-Thurs Dinner from 5:30-10PM
+                        Fri &amp; Sat Dinner from 5:30-11:00PM
+                    </p>
+                </div>
+                <div class="listing-map">
+                    <iframe width='100%' height='400px' frameBorder='0' src='http://a.tiles.mapbox.com/v3/mereditheads.h6ma6i3g/mm/zoompan,geocoder.html'></iframe>
+                    <a class="button secondary launch expand" href="#">Get Directions</a>
+                </div>
+            </div>
+            <div class="large-5 columns">
+                <div class="purchase panel">
+                    <h2 class="heading">Buy Tickets</h2>
+                    <ul>
+                        <li class="ticket">
+                            <div class="ticket-type">
+                                <label>Type</label>
+                                <span class="ticket-name">Adult</span><span class="ticket-price money">30.00</span>
+                            </div>
+                            <div class="ticket-savings">
+                                <label>You Save</label>
+                                <span class="money">0.00</span>
+                            </div>
+                            <div class="ticket-quantity">
+                                <label for="customDropdown1">Quantity</label>
+                                <select id="customDropdown1" class="medium">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="ticket">
+                            <div class="ticket-type">
+                                <label>Type</label>
+                                <span class="ticket-name">Child</span><span class="ticket-price money">15.00</span>
+                            </div>
+                            <div class="ticket-savings">
+                                <label>You Save</label>
+                                <span class="money">0.00</span>
+                            </div>
+                            <div class="ticket-quantity">
+                                <label for="customDropdown2">Quantity</label>
+                                <select id="customDropdown2" class="medium">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="ticket">
+                            <div class="ticket-type">
+                                <label>Type</label>
+                                <span class="ticket-name">Senior</span><span class="ticket-price money">24.00</span>
+                            </div>
+                            <div class="ticket-savings">
+                                <label>You Save</label>
+                                <span class="money">0.00</span>
+                            </div>
+                            <div class="ticket-quantity">
+                                <label for="customDropdown3">Quantity</label>
+                                <select id="customDropdown3" class="medium">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--<h2 class="total-amount"><span>$60.00</span></h2>-->
+                    <!--<h3 class="total-savings emphasis"><span class="money">7.00</span></h3>-->
+                    <a class="button radius add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <img id="logo-footer" src="../images/footer-logo_powered.png"/>
+        </div>
+        <div class="row">
+            <div class="large-12 columns carousel">
+                <ul class="large-block-grid-10">
+                    <li>Previous</li>
+                    <li>
+                        <div class="image-button label-only">
+                            <a href="listing.html">
+                                <img src="../images/image-button-500x500.png"/>
+                                <label>Label</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-button label-only">
+                            <a href="listing.html">
+                                <img src="../images/image-button-500x500.png"/>
+                                <label>Label</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-button label-only">
+                            <a href="listing.html">
+                                <img src="../images/image-button-500x500.png"/>
+                                <label>Label</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-button label-only">
+                            <a href="listing.html">
+                                <img src="../images/image-button-500x500.png"/>
+                                <label>Label</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-button label-only">
+                            <a href="listing.html">
+                                <img src="../images/image-button-500x500.png"/>
+                                <label>Label</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-button label-only">
+                            <a href="listing.html">
+                                <img src="../images/image-button-500x500.png"/>
+                                <label>Label</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-button label-only">
+                            <a href="listing.html">
+                                <img src="../images/image-button-500x500.png"/>
+                                <label>Label</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image-button label-only">
+                            <a href="listing.html">
+                                <img src="../images/image-button-500x500.png"/>
+                                <label>Label</label>
+                            </a>
+                        </div>
+                    </li>
+                    <li>Next</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+            <!-- end page content -->
+            </section>
+
+            <a class="exit-off-canvas"></a>
+
+        </div>
+    </div>
+
+    <script src="http://www.citycorridor.com/shared/foundation/js/vendor/jquery.js"></script>
+    <script src="http://www.citycorridor.com/shared/foundation/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+</body>
+</html>

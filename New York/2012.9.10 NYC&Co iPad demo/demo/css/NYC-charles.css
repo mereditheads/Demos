@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{background-color:#000;}
+#all{margin:auto; padding-top:0px; height:1150px; width:647px;}
+#screen{height:892px; background-repeat:no-repeat;}
+#nav{height:258px;}
+#map{position:relative; top:149px; left:55px; height:422px; width:537px;}
+
+#featured_large_sq{position:relative; top:149px; left:55px; height:422px; width:537px;}
+#featured_reg{position:relative; top:149px; left:55px; height:290px; width:537px;}
+.main{float:left; margin-right:2px;}
+.side{float:left;}
+.margin-bottom{margin-bottom:2px;}
+
+#category_holder{width:647px; height:auto; overflow:scroll; position:relative; top:156px; padding-top:5px;}
+#categories{ background-color:#DDD; overflow:auto; overflow-y:hidden;}
+.toprow{margin-bottom:2px;}
+
+.container {
+	float:left;
+	/*width: 128px; height: 130px;*/
+	-webkit-perspective: 1000;
+	padding-right:3px;
+}
+
+.card {
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: 0.5s;
+}
+.container:hover .card {
+	-webkit-transform: rotateY(180deg);				
+}
+.face {position: absolute; -webkit-backface-visibility: hidden;}
+.front{}
+.back{-webkit-transform:rotateY(180deg);}
+.square{width: 128px; height: 130px;}
+.rectangle{width: 128px; height:261px;}
+
+.yellow{background-color:#FC3;}
+.purple{background-color:#909;}
+.green{background-color:#9C3;}
+.blue{background-color:#00CCFF;}
+.pink{background-color:#FF3399;}
+
+h1{font-family:Helvetica; color:#FFF; text-align:center; font-size:18px; margin-top:55px;}
+h2{font-family:Helvetica; color:#FFF; text-align:center; font-size:18px; margin-top:105px;}
+
+#banner{position:relative; top:170px; left:55px; height:121px; width:537px;}
+
+.transportation{background-image:url(../images/bg-transportation.png);}
+.dining{background-image:url(../images/bg-dining.png);}
+.deals{background-image:url(../images/bg-deals.png);}
+.whattodo{background-image:url(../images/bg-whattodo.png);}
+.guide{background-image:url(../images/bg-guide.png);}

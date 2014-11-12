@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<Categories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryView>
+    <Name>dining</Name>
+    <NameLookup>dining</NameLookup>
+    <DisplayName>Dining</DisplayName>
+    <ChildCategories>
+      <CategoryView>
+        <Name>bakeries-sweets</Name>
+        <NameLookup>bakeriessweets</NameLookup>
+        <DisplayName>Bakeries &amp; Sweets</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>seafood</Name>
+        <NameLookup>seafood</NameLookup>
+        <DisplayName>Seafood</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>cafes-bistros</Name>
+        <NameLookup>cafesbistros</NameLookup>
+        <DisplayName>Cafes &amp; Bistros</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>casual-dining</Name>
+        <NameLookup>casualdining</NameLookup>
+        <DisplayName>Casual Dining</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>fine-dining</Name>
+        <NameLookup>finedining</NameLookup>
+        <DisplayName>Fine Dining</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>italian</Name>
+        <NameLookup>italian</NameLookup>
+        <DisplayName>Italian</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>japanese</Name>
+        <NameLookup>japanese</NameLookup>
+        <DisplayName>Japanese</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>waterfront-dining</Name>
+        <NameLookup>waterfrontdining</NameLookup>
+        <DisplayName>Waterfront Dining</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>mexican</Name>
+        <NameLookup>mexican</NameLookup>
+        <DisplayName>Mexican</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+    </ChildCategories >
+  </CategoryView>
+  <CategoryView>
+    <Name>bakeries-sweets</Name>
+    <NameLookup>bakeriessweets</NameLookup>
+    <DisplayName>Bakeries &amp; Sweets</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>seafood</Name>
+    <NameLookup>seafood</NameLookup>
+    <DisplayName>Seafood</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>cafes-bistros</Name>
+    <NameLookup>cafesbistros</NameLookup>
+    <DisplayName>Cafes &amp; Bistros</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>casual-dining</Name>
+    <NameLookup>casualdining</NameLookup>
+    <DisplayName>Casual Dining</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>fine-dining</Name>
+    <NameLookup>finedining</NameLookup>
+    <DisplayName>Fine Dining</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>italian</Name>
+    <NameLookup>italian</NameLookup>
+    <DisplayName>Italian</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>japanese</Name>
+    <NameLookup>japanese</NameLookup>
+    <DisplayName>Japanese</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>waterfront-dining</Name>
+    <NameLookup>waterfrontdining</NameLookup>
+    <DisplayName>Waterfront Dining</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>mexican</Name>
+    <NameLookup>mexican</NameLookup>
+    <DisplayName>Mexican</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>hotel-information</Name>
+    <NameLookup>hotelinformation</NameLookup>
+    <DisplayName>Hotel Information</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>see-do</Name>
+    <NameLookup>seedo</NameLookup>
+    <DisplayName>See &amp; Do</DisplayName>
+    <ChildCategories>
+      <CategoryView>
+        <Name>aquariums</Name>
+        <NameLookup>aquariums</NameLookup>
+        <DisplayName>Aquariums</DisplayName>
+        <ChildCategories/>
+      </CategoryView>
+      <CategoryView>
+        <Name>amusement</Name>
+        <NameLookup>amusement</NameLookup>
+        <DisplayName>Amusement</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+            <Name>golf</Name>
+            <NameLookup>golf</NameLookup>
+            <DisplayName>Golf</DisplayName>
+            <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>nightlife</Name>
+        <NameLookup>nightlife</NameLookup>
+        <DisplayName>Nightlife </DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>shopping</Name>
+        <NameLookup>shopping</NameLookup>
+        <DisplayName>Shopping</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>recreation</Name>
+        <NameLookup>recreation</NameLookup>
+        <DisplayName>Recreation</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+            <Name>spas-salons</Name>
+            <NameLookup>spassalons</NameLookup>
+            <DisplayName>Spas &amp; Salons</DisplayName>
+            <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+            <Name>fishing-charters</Name>
+            <NameLookup>fishingcharters</NameLookup>
+            <DisplayName>Fishing Charters</DisplayName>
+            <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+            <Name>mini-golf</Name>
+            <NameLookup>minigolf</NameLookup>
+            <DisplayName>Mini Golf</DisplayName>
+            <ChildCategories />
+      </CategoryView>
+    </ChildCategories>
+  </CategoryView>
+  <CategoryView>
+    <Name>aquariums</Name>
+    <NameLookup>aquariums</NameLookup>
+    <DisplayName>Aquariums</DisplayName>
+    <ChildCategories/>
+  </CategoryView>
+  <CategoryView>
+    <Name>amusement</Name>
+    <NameLookup>amusement</NameLookup>
+    <DisplayName>Amusement</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>golf</Name>
+    <NameLookup>golf</NameLookup>
+    <DisplayName>Golf</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>nightlife</Name>
+    <NameLookup>nightlife</NameLookup>
+    <DisplayName>Nightlife </DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>shopping</Name>
+    <NameLookup>shopping</NameLookup>
+    <DisplayName>Shopping</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>recreation</Name>
+    <NameLookup>recreation</NameLookup>
+    <DisplayName>Recreation</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>spas-salons</Name>
+    <NameLookup>spassalons</NameLookup>
+    <DisplayName>Spas &amp; Salons</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>fishing-charters</Name>
+    <NameLookup>fishingcharters</NameLookup>
+    <DisplayName>Fishing Charters</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>mini-golf</Name>
+    <NameLookup>minigolf</NameLookup>
+    <DisplayName>Mini Golf</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>entertainment-events</Name>
+    <NameLookup>entertainmentevents</NameLookup>
+    <DisplayName>Entertainment &amp; Events</DisplayName>
+    <ChildCategories>
+      <CategoryView>
+        <Name>events</Name>
+        <NameLookup>events</NameLookup>
+        <DisplayName>Events</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>live-music</Name>
+        <NameLookup>livemusic</NameLookup>
+        <DisplayName>Live Music</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+            <Name>theatre-shows</Name>
+            <NameLookup>theatreshows</NameLookup>
+            <DisplayName>Theatre &amp; Shows</DisplayName>
+            <ChildCategories />
+      </CategoryView>
+    </ChildCategories>
+  </CategoryView>
+      <CategoryView>
+        <Name>events</Name>
+        <NameLookup>events</NameLookup>
+        <DisplayName>Events</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>live-music</Name>
+        <NameLookup>livemusic</NameLookup>
+        <DisplayName>Live Music</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>theatre-shows</Name>
+        <NameLookup>theatreshows</NameLookup>
+        <DisplayName>Theatre &amp; Shows</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+  <CategoryView>
+    <Name>visitor-information</Name>
+    <NameLookup>visitorinformation</NameLookup>
+    <DisplayName>Visitor Information</DisplayName>
+    <ChildCategories>
+      <CategoryView>
+        <Name>transportation</Name>
+        <NameLookup>transportation</NameLookup>
+        <DisplayName>Transportation</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>real-estate</Name>
+        <NameLookup>realestate</NameLookup>
+        <DisplayName>Real Estate</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>charles</Name>
+        <NameLookup>charles</NameLookup>
+        <DisplayName>charles</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>medical</Name>
+        <NameLookup>medical</NameLookup>
+        <DisplayName>medical</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>activities</Name>
+        <NameLookup>activities</NameLookup>
+        <DisplayName>activities</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+    </ChildCategories>
+  </CategoryView>
+      <CategoryView>
+        <Name>transportation</Name>
+        <NameLookup>transportation</NameLookup>
+        <DisplayName>Transportation</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>real-estate</Name>
+        <NameLookup>realestate</NameLookup>
+        <DisplayName>Real Estate</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>charles</Name>
+        <NameLookup>charles</NameLookup>
+        <DisplayName>charles</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>medical</Name>
+        <NameLookup>medical</NameLookup>
+        <DisplayName>medical</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>activities</Name>
+        <NameLookup>activities</NameLookup>
+        <DisplayName>activities</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+</Categories>

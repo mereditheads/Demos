@@ -1,0 +1,181 @@
+@fontface{
+	font-family:Croissant_One;
+	src:url(../fonts/Croissant_One/CroissantOne-Regular.ttf);
+}
+	
+/*-------------Text-------------*/
+h1{
+    font-family:'Arial', sans-serif;
+	font-size: 24px;
+	color: #000 /*#755e39*/;
+	padding-bottom:15px;
+}
+
+/*-------------Body-------------*/
+body{font-family:Arial, Helvetica, sans-serif;}
+div.container{background: url('../images/bg/bg_main.png');}
+
+/*-------------Header = 300px-------------*/
+#header{}
+#info_container{
+	float:left; 
+	width:274px; 
+	height:300px; 
+}
+#info_content{
+	display:none;
+	margin-left:41px; 
+	margin-right:41px; 
+	color:#FFF; 
+}
+#date_time{margin-top:60px; margin-bottom:20px;}
+.time{font-size:32px;} 
+.date{
+	font-size:24px; 
+	font-family: 'TradeGothic', sans-serif; 
+	letter-spacing:1px;
+}
+.day{font-size:20px; text-transform:uppercase;}
+.timeofday{font-size:18px; text-transform:uppercase; margin-left:5px;}
+#weather{}
+#weather_icon{float:left;}
+#weather_icon img{width:90%; margin-right:5px;}
+#temp{float:left; padding-top:10px; font-size:26px; font-weight:bold;}
+.low_temp{font-size:20px;}
+#product_header{
+	float:left;
+	margin:154px 31px 0 21px;
+}
+.product_name{
+	font-size:48px; 
+	font-family:'Trebuchet MS', sans-serif;
+	color:#FFF;  
+	line-height:50px; 
+}
+.filter_name{
+	display:none;
+	font-size: 18px;
+	color: #EEE;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+	line-height:26px; 
+}
+.sub-filter_name{
+	display:none;
+	text-transform: none;
+}
+
+/*-------------Media = 450px-------------*/
+#product_media{
+	padding:5px 0;
+	height: 438px;
+	background: #FFF;
+	border-top:solid 1px #400;
+	border-bottom:solid 1px #400;
+}
+#product_map{
+	float:left;
+	width:398px;
+	margin-right:5px;
+	height: 438px;	
+	background: url('../images/product/map_sample.png');
+}
+#product_image_container{
+	float:left;
+	width:677px;
+	height: 438px;
+	overflow: hidden;
+}
+#product_image_container img{height:100%;}
+
+/*-------------Sidebar = Filter-------------*/
+#sidebar{ 
+	height:812px;
+	/*width:274px;*/ 
+}
+#filter_container{} 
+#filter_actions{
+	padding-top:16px;
+	
+	/*text-shadow: 1px 1px 1px #F60; */
+	text-transform:uppercase; 
+}
+#product_details_actions_extra{
+	margin-top:16px;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:16px; 
+	text-transform:uppercase;
+}
+.actions_extra{
+	width: 100%;
+	float:left;
+	margin:0;	
+	padding:16px 0;
+}
+.actions_extra a{
+	text-decoration:none; 
+	color:#000; 
+}
+.actions_extra_link{
+	padding-top:4px;
+	padding-left:31px;
+}
+#directions.actions_extra{
+	background: url('../images/product/bg_actions_extra-1.png') no-repeat left center;
+}
+#menu.actions_extra{
+	background: url('../images/product/bg_actions_extra-2.png') no-repeat left center;
+}
+#special.actions_extra{
+	background: url('../images/product/bg_actions_extra-3.png') no-repeat left center;
+}
+
+
+/*-------------Sub-nav (position=absolute)-------------*/
+#sub_navigation{}
+#sub_nav_btn1{text-align:center;}
+#sub_nav_btn2{text-align:center;}
+
+/*-------------Content-------------*/
+#content{background:none;}
+
+/*-------------Listing Info-------------*/
+/*#product_details{
+	float:left;
+	color: #555;
+	font-family:'Arial', serif;
+	font-size: 18px;
+	font-weight:normal;
+}*/
+
+#product_details{
+	float:left;
+	width:770px;
+	margin-left:31px;
+}	
+#product_details_vendor{float:left; width:522px; margin-top: 50px; background:#FFF; border:solid 1px #999; box-shadow: 0px 2px 4px #248cc9;}
+#product_details_vendor h1{margin:16px 8px 0 8px;}
+#product_details_vendor p{margin:8px; padding:16px; background: #f5f5f5; border:solid 1px #eee; font-size: 16px;}
+/*add padding (and remove from #product_details) if action btn is to touch media edge*/
+#product_details_actions_main{
+	float:right; 
+	padding-top:62px;
+}
+#product_details_actions_main a{
+	font-family: 'Arial';
+	font-size:24px;
+	color:#FFF; 
+	text-transform:uppercase;
+	text-decoration: none;
+}
+#product_details_display_hours{background:none; margin-top:31px;}
+#product_details_display{float:left; width:522px; margin-top: 31px;  background:#FFF; border:solid 1px #999; box-shadow: 0px 2px 4px #248cc9;}
+#product_details_display_description{text-align: justify; margin: 8px;}
+#product_details_display_description h1{margin-top:16px;}
+#product_details_display_description p{padding:31px; background: #f5f5f5; border:solid 1px #eee; font-size: 16px;}
+#product_details_display_prices{margin-top: 31px;}
+#product_details_display_prices ul{list-style-type: none; padding:0; margin:0;}
+#product_details_display_prices ul li{}
+
+/*-------------Main Nav-------------*/
+#nav_container{background: #000;}

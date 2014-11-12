@@ -1,0 +1,170 @@
+@fontface{
+	font-family:TradeGothic;
+	src: url('../fonts/TradeGothic/TradeGothic.ttf');
+}
+	
+/*-------------Text-------------*/
+h1{
+    font-family:'Trebuchet MS', sans-serif;
+	font-size: 24px;
+	color: #000 /*#755e39*/;
+	padding-bottom:15px;
+}
+
+/*-------------Body-------------*/
+body{font-family:Arial, Helvetica, sans-serif;}
+div.container{background: url('../images/bg/bg_listing.png');}
+
+/*-------------Header = 300px-------------*/
+#header{}
+#info_container{
+	float:left; 
+	width:274px; 
+	height:300px; 
+}
+#info_content{
+	display:none;
+	margin-left:41px; 
+	margin-right:41px; 
+	color:#FFF; 
+}
+#date_time{margin-top:60px; margin-bottom:20px;}
+.time{font-size:32px;} 
+.date{
+	font-size:24px; 
+	font-family: 'TradeGothic', sans-serif; 
+	letter-spacing:1px;
+}
+.day{font-size:20px; text-transform:uppercase;}
+.timeofday{font-size:18px; text-transform:uppercase; margin-left:5px;}
+#weather{}
+#weather_icon{float:left;}
+#weather_icon img{width:90%; margin-right:5px;}
+#temp{float:left; padding-top:10px; font-size:26px; font-weight:bold;}
+.low_temp{font-size:20px;}
+#product_header{
+	float:left;
+	margin:154px 31px 0 21px;
+}
+.product_name{
+	font-size:48px; 
+	font-family:'Trebuchet MS', sans-serif;
+	color:#FFF;  
+	line-height:50px;
+}
+.filter_name{
+	display:none;
+	font-size: 18px;
+	color: #EEE;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+	line-height:26px; 
+}
+.sub-filter_name{
+	display:none;
+	text-transform: none;
+}
+
+/*-------------Media = 450px-------------*/
+#product_media{
+	padding:5px 0;
+	height: 438px;
+	background: #FFF;
+	border-top:solid 1px #400;
+	border-bottom:solid 1px #400;
+}
+#product_map{
+	float:left;
+	width:398px;
+	margin-right:5px;
+	height: 438px;	
+	background: url('../images/product/map_sample.png');
+}
+#product_image_container{
+	float:left;
+	width:677px;
+	height: 438px;
+	overflow: hidden;
+}
+#product_image_container img{height:100%;}
+
+/*-------------Sidebar = Filter-------------*/
+#sidebar{ 
+	height:812px;
+	/*width:274px;*/ 
+}
+#filter_container{} 
+#filter_actions{
+	padding-top:16px;
+	
+	/*text-shadow: 1px 1px 1px #F60; */
+	text-transform:uppercase; 
+}
+#product_details_actions_extra{
+	margin-top:16px;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:16px; 
+	text-transform:uppercase;
+}
+.actions_extra{
+	flaot:left;	
+	padding:16px 0;
+	margin: 16px 0;
+	border-top: solid 10px #325f78;
+	border-bottom: solid 10px #325f78;
+	border-right: solid 10px #325f78;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: -webkit-linear-gradient(top, #6290a8, #578095);
+}
+.actions_extra a{
+	text-decoration:none; 
+	color:#FFF; 
+}
+.actions_extra_link{
+	padding-top:10px;
+	padding-left:39px;
+	background: url('../images/product/star.png') no-repeat 16px center;
+}
+
+/*-------------Sub-nav (position=absolute)-------------*/
+#sub_navigation{}
+#sub_nav_btn1{text-align:center;}
+#sub_nav_btn2{text-align:center;}
+
+/*-------------Content-------------*/
+#content{background:none;}
+
+/*-------------Listing Info-------------*/
+#product_details{
+	float:left;
+	/*padding-top: 50px;*/
+	color: #000;
+	font-family:'Arial', serif;
+	font-size: 18px;
+	font-weight:normal;
+	text-shadow:1px 1px 1px #DDD;
+}
+#product_details_vendor{float:left; background:none; padding-top: 50px;}
+#product_details_vendor p{}
+/*add padding (and remove from #product_details) if action btn is to touch media edge*/
+#product_details_actions_main{
+	float:left; 
+	padding-left:14px;
+}
+#product_details_actions_main a{
+	font-family: 'Franklin Gothic Medium';
+	font-size:24px;
+	color:#FFF; 
+	text-transform:uppercase;
+	text-decoration: none;
+}
+#product_details_display_hours{background:none; margin-top:31px;}
+#product_details_display{background:none; margin-top: 31px; border-right:solid 1px #888;}
+#product_details_display_description{text-align: justify; margin-right:-1px;}
+#product_details_display_prices{margin-top: 31px;}
+#product_details_display_prices ul{list-style-type: none; padding:0; margin:0;}
+#product_details_display_prices ul li{}
+
+/*-------------Main Nav-------------*/
+#nav_container{background: #000;}

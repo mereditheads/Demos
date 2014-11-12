@@ -1,0 +1,59 @@
+<html>
+	<head>
+        <!-- Foundation CSS -->
+        <link href="lib/foundation/scss/foundation.css" rel="stylesheet" type="text/css" media="screen">
+
+        <!-- Base Theme CSS -->
+        <link rel="stylesheet" href="themes/base/styles/main.css" type="text/css" media="screen, projection">
+
+        <!-- Demo Theme CSS -->
+        <link rel="stylesheet" href="themes/demo/styles/demo.css" type="text/css" media="screen, projection">
+
+        <!--Nivo Slider-->
+        <link rel="stylesheet" href="lib/nivoslider/themes/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="lib/nivoslider/themes/light/light.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="lib/nivoslider/themes/dark/dark.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="lib/nivoslider/themes/bar/bar.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="lib/nivoslider/nivo-slider.css" type="text/css" media="screen" />
+        
+    </head>
+    
+    <body oncontextmenu="return false;">
+    	<div id="container" class="home">
+            <div id="ad-large-rotator">
+                <div class="slider-wrapper theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <a href="#"><img src="themes/demo/images/ads/ad_large_c_ballparkvillage.png" data-thumb="images/ads/ad_large_c_ballparkvillage.png" alt="" /></a>
+                        <a href="orderfood.html"><img src="themes/demo/images/ads/ad_large_c_orderfood.png" data-thumb="images/ads/ad_large_c_orderfood.png" alt="" /></a>
+                        <a href="wayfinding.html"><img src="themes/demo/images/ads/ad_large_c_wayfinding.png" data-thumb="images/ads/ad_large_c_wayfinding.png" alt="" /></a>
+                        <a href="gear.html"><img src="themes/demo/images/ads/ad_large_c_gear.png" data-thumb="images/ads/ad_large_c_gear.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+            <div id="navigation">
+                <ul id="main_nav" class="raised">
+                    <li id="nav1" class="main_nav_btn"><a href="gear.html"><img src="themes/demo/images/navigation/icon_gear.png"><p>Game Gear</p></a></li>
+                    <li id="nav2" class="main_nav_btn"><a href="orderfood.html"><img src="themes/demo/images/navigation/icon_orderfood.png" /><p>Order Food</p></a></li>
+                    <li id="nav3" class="main_nav_btn"><a href="wayfinding.html"><img src="themes/demo/images/navigation/icon_wayfinding.png"/><p>Find Your Way</p></a></li>
+                    <li id="nav4" class="main_nav_btn"><a href="#"><img src="themes/demo/images/navigation/icon_ballparkvillage.png" /><p>Ballpark Village</p></a></li>
+                </ul><!--End #main_nav-->
+            </div>
+        </div><!--End #container-->
+
+        <script type="text/javascript" src="lib/nivoslider/jquery-1.9.0.min.js"></script>
+        <script type="text/javascript" src="lib/nivoslider/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider({
+                    animSpeed: 500, // Slide transition speed
+                    pauseTime: 10000, // How long each slide will show
+                    directionNav: false, // Next & Prev navigation
+                    controlNav: false, // 1,2,3... navigation
+                    controlNavThumbs: false, // Use thumbnails for Control Nav
+                    pauseOnHover: false, // Stop animation while hovering
+                });
+            });
+        </script>
+    
+    </body>
+</html>

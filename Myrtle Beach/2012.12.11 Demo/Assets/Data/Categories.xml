@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<Categories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryView>
+    <Name>see-do</Name>
+    <NameLookup>seedo</NameLookup>
+    <DisplayName>See &amp; Do</DisplayName>
+    <ChildCategories>
+      <CategoryView>
+        <Name>amusement</Name>
+        <NameLookup>amusement</NameLookup>
+        <DisplayName>Amusement</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>shopping</Name>
+        <NameLookup>shopping</NameLookup>
+        <DisplayName>Shopping</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>live-music</Name>
+        <NameLookup>livemusic</NameLookup>
+        <DisplayName>Live Music</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>theatre-shows</Name>
+        <NameLookup>theatreshows</NameLookup>
+        <DisplayName>Theatre &amp; Shows</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>shopping</Name>
+        <NameLookup>shopping</NameLookup>
+        <DisplayName>Shopping</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>tours</Name>
+        <NameLookup>tours</NameLookup>
+        <DisplayName>Tours</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>amusement</Name>
+        <NameLookup>amusement</NameLookup>
+        <DisplayName>Amusement</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>spas-salons</Name>
+        <NameLookup>spassalons</NameLookup>
+        <DisplayName>Spas &amp; Salons</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>tours</Name>
+        <NameLookup>tours</NameLookup>
+        <DisplayName>Tours</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>sports</Name>
+        <NameLookup>sports</NameLookup>
+        <DisplayName>Sports</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+    </ChildCategories>
+  </CategoryView>
+  <CategoryView>
+    <Name>see-do</Name>
+    <NameLookup>seedo</NameLookup>
+    <DisplayName>See &amp; Do</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+  <CategoryView>
+    <Name>dining</Name>
+    <NameLookup>dining</NameLookup>
+    <DisplayName>Dining</DisplayName>
+    <ChildCategories>
+      <CategoryView>
+        <Name>bakeries-sweets</Name>
+        <NameLookup>bakeriessweets</NameLookup>
+        <DisplayName>Bakeries &amp; Sweets</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>mediterranean-greek</Name>
+        <NameLookup>mediterraneangreek</NameLookup>
+        <DisplayName>Mediterranean &amp; Greek</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>vegetarian</Name>
+        <NameLookup>vegetarian</NameLookup>
+        <DisplayName>Vegetarian</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>cafes-bistros</Name>
+        <NameLookup>cafesbistros</NameLookup>
+        <DisplayName>Cafes &amp; Bistros</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>mexican</Name>
+        <NameLookup>mexican</NameLookup>
+        <DisplayName>Mexican</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>steakhouse</Name>
+        <NameLookup>steakhouse</NameLookup>
+        <DisplayName>Steakhouse</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>fine-dining</Name>
+        <NameLookup>finedining</NameLookup>
+        <DisplayName>Fine Dining</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>asian</Name>
+        <NameLookup>asian</NameLookup>
+        <DisplayName>Asian</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>pizza</Name>
+        <NameLookup>pizza</NameLookup>
+        <DisplayName>Pizza</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>italian</Name>
+        <NameLookup>italian</NameLookup>
+        <DisplayName>Italian</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>seafood</Name>
+        <NameLookup>seafood</NameLookup>
+        <DisplayName>Seafood</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>casual-dining</Name>
+        <NameLookup>casualdining</NameLookup>
+        <DisplayName>Casual Dining</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>seafood</Name>
+        <NameLookup>seafood</NameLookup>
+        <DisplayName>Seafood</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>bbq</Name>
+        <NameLookup>bbq</NameLookup>
+        <DisplayName>Bbq</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+      <CategoryView>
+        <Name>casual-dining</Name>
+        <NameLookup>casualdining</NameLookup>
+        <DisplayName>Casual Dining</DisplayName>
+        <ChildCategories />
+      </CategoryView>
+    </ChildCategories>
+  </CategoryView>
+  <CategoryView>
+    <Name>dining</Name>
+    <NameLookup>dining</NameLookup>
+    <DisplayName>Dining</DisplayName>
+    <ChildCategories />
+  </CategoryView>
+</Categories>

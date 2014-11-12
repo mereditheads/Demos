@@ -1,0 +1,276 @@
+/*NYC & Co. Theme */
+
+body{
+    font-family: Arial Narrow;
+}
+
+@font-face {
+    font-family: "MLB";
+    src: url('../fonts/MLB/MLBTUSCA.ttf') format("truetype");
+}
+
+/*------------- Text & Global - 1em=16px -------------*/
+h1{font-family: 'MLB'; color: #0d2a52 !important; text-transform: uppercase;}
+h2{font-family: Arial Narrow;}
+h3{
+    font-family: Arial Narrow;
+    color: #bcbcbc;
+}
+h4{font-family: Arial Narrow;}
+p{color:#666;}
+
+#container{
+    background: #000;
+}
+
+#container.home{background: url('../images/screen/interface6.4-home2-sample.jpg');}
+#container.orderfood{background: url('../images/screen/interface6.4-category1-orderfood-scan1-2.jpg');}
+#container.wayfinding{background: url('../images/screen/interface6.4-category4-wayfinding1-2.jpg');}
+#container.lobels{background: url('../images/screen/interface6.4-listing2-lobels1-2.jpg');}
+#container.mta{background: url('../images/screen/interface6.4-category1-mta2-2.jpg');}
+#container.retail{background: url('../images/screen/interface6.4-category1-gear1-2.jpg');}
+
+/*------------- Content -------------*/
+
+#content{
+    height: 1600px;
+    background: none;
+    overflow: hidden;
+}
+
+#content.foodorder{height:1920px;}
+#content.wayfinding{
+    height: 1050px;
+    margin-top:550px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #FFF;
+}
+#map_collapsed, #vendor_list{height: 100%;}
+#map_collapsed{
+    position: relative;
+    z-index: 1;
+    float: left;
+    width:468px;
+    height: 1042px;
+    margin-right: 4px;
+    background: #fff;
+    border-top: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    -webkit-transition:width 2s;
+    transition:width 2s;
+}
+/*#map_collapsed:hover {
+    width: 1080px;
+    margin-bototm: 4px;
+}*/
+
+#map_collapsed img{    overflow: scroll; height: 100%; width: auto;}
+
+#vendor_list{
+    position: relative;
+    z-index: 1;
+    overflow: scroll;
+    background: #e3e3e3;
+    border-top: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+.wayfinding h1{
+    font-size: 24px;
+    margin-left: 16px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    background-color: #e3e3e3;
+    background-color: rgba(0, 0, 0, 0.005);
+}
+
+#map_expanded{
+    position:absolute;
+    left: -1080px;
+    z-index: 100;
+    width: 1130px;
+    height: 1042px;
+    background: #03a0db;
+}
+#map{
+    float:left;
+    width: 1080px;
+}
+a#expand{
+    position:absolute;
+    left: 0;
+    z-index: 100;
+    width: 50px;
+    height: 100px;
+    margin-top: 480px;
+    background: #e3e3e3;
+}
+.active{
+    left: 0;
+}
+
+.hide{
+    left: -1080px;
+}
+
+#orderfood-slider{
+    height: 575px;
+    margin-top: 550px;
+    padding-top: 4px;
+    background: #fff;
+}
+#orderfood-slider ul{
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+
+/* Foundation - Orbit */
+.orbit-container .orbit-slides-container > * .orbit-caption {
+    height: 90px;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 50px;
+    font-size: 1.15em;
+}
+.orbit-caption h1{font-size: 24px; line-height: 26px; margin:0; }
+.orbit-caption p{color: #0d2a52 !important;}
+.orbit-caption a{float: right; clear: none; margin-top: -70px; padding: 10px 60px; background: #e3e3e3; border-radius:24px; border: solid 1px #ccc; color: #0d2a52 !important; text-transform: uppercase;}
+
+.orbit-container .orbit-prev,
+.orbit-container .orbit-next {
+    top: 41%;
+    background-color: #e3e3e3;
+    height: 100px;
+    color: #0d2a52 !important;
+}
+.orbit-container .orbit-prev{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+.orbit-container .orbit-next{
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+.orbit-container .orbit-prev > span {
+    border-right-color: #0d2a52; }
+.orbit-container .orbit-prev:hover > span {
+    border-right-color: #0d2a52; }
+.orbit-container .orbit-next > span {
+    border-left-color: #0d2a52; }
+.orbit-container .orbit-next:hover > span {
+    border-left-color: #0d2a52; }
+
+
+li.filter_btn{
+    background: #333;
+    border: none !important;
+}
+
+#category_filter ul li.filter_btn, #listing_features ul li.filter_btn{
+    background: #222;
+    border: none !important;
+}
+li.sub_filter_btn{
+    background: #333;
+    border-right: solid 1px #222;
+    border-bottom: solid 1px #222;
+    color: #bcbcbc;
+}
+
+#locations_filter ul li.selected, #menu_selection ul li.selected, #offer_selection ul li.selected{
+    background: #222 !important;
+    border: none !important;
+}
+
+li.filter_btn#close{
+    background:#fff;
+    border: none !important;
+    color:#333;
+}
+
+a.action_main_btn{
+    padding: 18px 0 17px 0;
+    background:#03a0db;
+    border: none;
+    text-shadow: none;
+}
+
+/*------------- Sub-nav -------------*/
+#sub_nav_container{
+    background:#091931;
+    border-top:solid 1px #000;
+}
+
+#sub_nav_container a{
+    background:#0d2a52;
+    text-shadow:none;
+}
+
+/*------------- Main-nav -------------*/
+#nav_tab{
+    background:#000;
+    border-top:none;
+}
+
+#nav_tab a{border-color: transparent transparent #666 transparent;}
+#nav_tab a.raised{border-color: #666 transparent transparent transparent;}
+
+ul#main_nav{
+    padding: 0 15px;
+    border-top: solid 1px #000;
+    background:#000 !important;
+}
+
+li.main_nav_btn{
+    width:250px;
+    margin-top: 15px;
+    margin-right: 15px;
+    background: #ccc url('../images/navigation/bg_main_nav_btn.png') !important;
+    font-weight: bold;
+}
+
+.main_nav_btn img{
+    margin-top:0;
+}
+
+#nav1 {}
+#nav2 {}
+#nav3 {}
+#nav4 {margin-right: 0;}
+#nav5 {display:none; width: 0; margin: 0;}
+#nav5 img{display:none; width: 0; margin: 0;}
+
+ul#main_nav.raised li.main_nav_btn p{font-size: 1.5em;color: #091A31;}
+
+/*------------- Category -------------*/
+#category_filter ul{
+    background: #222;
+}
+#category_filter ul li.sub_filter_btn.selected{background: #03a0db;}
+
+/*------------- Directions -------------*/
+#transit_mode ul li.selected{
+    background:#fff;
+    border-top: solid 1px #e3e3e3 !important;
+    border-right: solid 1px #e3e3e3 !important;
+    border-bottom: solid 1px #e3e3e3 !important;
+}
+
+/*------------- Locations -------------*/
+.locations_actions ul li.pin{
+    background: #222 !important;
+    border: none !important;
+}
+.locations_actions ul li.get_directions_btn{background:#03a0db;}
+
+/*------------- Menu -------------*/
+
+/*------------- Special Offer -------------*/

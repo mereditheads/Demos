@@ -1,0 +1,81 @@
+
+/*-------------Header=300px-------------*/
+#header.directions{height:300px;}
+
+#page_header.directions h1{display:none;}
+#page_header.directions h3{display:none;}
+
+/*-------------Content Area-------------*/
+#content.directions{height:1300px;}
+
+/*-------------Media = 450px tall (includes borders)-------------*/
+#listing_media.directions{
+    height:450px; /*12px greater than img height b/c of padding and border*/
+}
+#listing_map_container.directions{
+    height: 438px;
+    width:100%;
+}
+
+/*-------------Directions Info-------------*/
+#listing_directions{
+    height:65.38%; /*percentage less height of listing_media*/
+    padding:80px 40px 30px 40px;
+    background:#fff;
+    border-right:solid 1px #e3e3e3;
+    color:#777;
+}
+#directions{}
+#directions ul{list-style:none; padding:10px 0 0 0;}
+#directions ul li{padding-bottom:10px;}
+
+/* ---------- Bing Map Styles ----------- */
+.dd_directionStepLetter{margin-right:16px;}
+.dd_locationWaypoint{margin-bottom:16px;}
+
+.dd_tripSummary {float:right; margin-bottom:1em; /*text-align:center;*/}
+
+.dd_distance{float:right; margin-left:1em;}
+.dd_intersectionHint{font-size:.9em; font-style:italic;}
+
+/*-------------Sidebar (Transit Mode & Action)-------------*/
+#sidebar.directions{
+    float:left;
+    height:65.38%; /*percentage less height of listing_media*/
+    padding-top:60px;
+}
+#filter_container.directions{
+    float:left;
+    width:75px;
+    margin-left: -1px;
+}
+
+#transit_mode ul li{padding:5px 0;}
+#transit_mode ul li img{
+    width:50px;
+    height:50px;
+    margin-top:0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+    opacity: 0.7;
+}
+#transit_mode ul li.selected{
+    background:#fff;
+    border-top: solid 1px #e3e3e3;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+#transit_mode ul li.selected img{opacity: 1;}
+
+#action_main.directions{
+    float:left;
+    width: 330px;
+    padding:0 40px;
+}
+
+a#print_directions_btn{float: left; width: 100%; margin-bottom: 40px;}
+
+#directions_details{}
+#directions_location_name{margin-bottom:32px;}
+#directions_location_hours{color:#777;}

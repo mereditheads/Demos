@@ -1,0 +1,119 @@
+@fontface{
+	font-family:TradeGothic;
+	src: url('../fonts/TradeGothic/TradeGothic.ttf');
+}
+	
+/*-------------Text-------------*/
+h1{
+    font-family:'TradeGothic', sans-serif;
+	font-size: 24px;
+	color: #000;
+	font-weight:normal;
+	padding-bottom:15px;
+}
+
+/*-------------Body-------------*/
+body{font-family:Arial, Helvetica, sans-serif;}
+div.container{background: url('../images/bg/bg_main.png');}
+
+/*-------------Header = 300px-------------*/
+#header{}
+#info_container{
+	float:left; 
+	width:274px; 
+	height:300px; 
+}
+#info_content{
+	display:none;
+	margin-left:41px; 
+	margin-right:41px; 
+	color:#FFF; 
+}
+#date_time{margin-top:60px; margin-bottom:20px;}
+.time{font-size:32px;} 
+.date{
+	font-size:24px; 
+	font-family: 'TradeGothic', sans-serif; 
+	letter-spacing:1px;
+}
+.day{font-size:20px; text-transform:uppercase;}
+.timeofday{font-size:18px; text-transform:uppercase; margin-left:5px;}
+#weather{}
+#weather_icon{float:left;}
+#weather_icon img{width:90%; margin-right:5px;}
+#temp{float:left; padding-top:10px; font-size:26px; font-weight:bold;}
+.low_temp{font-size:20px;}
+#info_header{
+	float:left;
+	margin:154px 31px 0 21px;
+}
+.category_name{
+	font-size:48px; 
+	font-family:'Trebuchet MS', sans-serif;
+	color:#FFF;  
+	line-height:50px;
+}
+
+/*-------------Banner-------------*/
+.banner{display:none;}
+.banner img{overflow:hidden;}
+/*#info_container{display:none;}
+#info_header{display:none;}*/
+
+/*-------------Sidebar = Filter-------------*/
+#sidebar{
+	height:1250px;
+	/*width:274px;*/ 
+}
+#filter_container{display:none;} 
+#filter_actions{
+	padding-top:16px;
+	font-family:'TradeGothic', sans-serif;
+	font-size:16px; 
+	text-transform:uppercase;
+}
+.filter_expand{float:right;}
+ul.filter_btn{
+	margin:0 31px;	
+	padding:16px 0;
+	background: url('../images/bg/bg_filter_btn.png') repeat-x left bottom;
+}
+.filter_btn a{
+	text-decoration:none; 
+	color:#FFF;
+}
+li.sub_filter_btn{
+	margin-left:31px;
+	padding-top:16px;
+}
+li.sub_filter_btn a{
+	text-decoration:none; 
+	color:#f0eccd;
+}
+
+/*.filter_btn.selected{background: #e3e3e3; text-shadow: none;}*/
+
+
+/*-------------Sub-nav (position=absolute)-------------*/
+#sub_navigation{}
+#sub_nav_btn1{text-align:center;}
+#sub_nav_btn2{text-align:center;}
+
+/*-------------Category Container-------------*/
+#category_container{
+	float:left;
+	width:801px;
+    /*height: 1250px; /*define if background needed*/
+}
+#category_grid{padding-left:16px;}
+#category_rows{}
+div.category_row{margin-top: 16px; height:180px;}
+div.category_button_0, div.category_button_1, div.category_button_2, div.category_button_3{
+    float: left;
+    height: 180px;
+    width: 180px;
+    margin-right: 16px;
+}
+
+/*-------------Main Nav-------------*/
+#nav_container{background:#000;}

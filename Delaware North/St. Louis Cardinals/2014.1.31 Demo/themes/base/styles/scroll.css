@@ -1,0 +1,30 @@
+/* NanoScroller Styles */
+/* Use these selectors to override default Nano settings */
+
+.nano {
+}
+
+.nano .content {
+}
+
+/* Styles the scrollbar */
+.nano .pane {
+    right: 15px;
+    margin: 5px 0;
+    background: #888;
+}
+
+/* Styles the dragger */
+.nano .slider {
+    background: #111;
+}
+
+/* Nav-Scroll Component */
+
+.nav-scroll .nano {
+    height: 1145px;
+}
+
+.nav-scroll .nano .content {
+    padding-top: 20px;
+}

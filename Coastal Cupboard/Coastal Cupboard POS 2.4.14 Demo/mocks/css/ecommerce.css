@@ -1,0 +1,290 @@
+
+body{
+}
+
+h3{
+    font-size: 1.25em;
+}
+
+.sub-nav{
+    margin-bottom: 40px;
+    /*border-color: #0bacdd;*/
+}
+
+.sub-nav button{
+    padding:4px 10px;
+    font-size: .75em;
+}
+
+.sub-nav .calendar,
+.sub-nav .search{
+    margin-right: 40px;
+}
+
+.sub-nav input{
+    border: solid 1px #0bacdd;
+}
+
+.sub-nav dd{
+    text-transform: uppercase;
+}
+
+.sub-nav dd:not(.active) a{
+    color: #27c4f4;
+}
+
+#content_wrapper{
+    padding: 40px;
+    background: #fff;
+}
+
+.sidebar{
+    padding:0;
+}
+
+.content_container{
+    margin-top: 40px;
+}
+
+.content_container .columns{
+    padding: 20px 40px;
+}
+
+.content_container .columns:nth-child(2n){
+    background: whitesmoke;
+    border: solid 1px #ececec;
+}
+
+.content_container h1,
+.content_container p{
+    margin-bottom: 16px;
+}
+
+#footer{
+    padding: 20px 0;
+    background: whitesmoke;
+    border-top: solid 1px #ececec;
+}
+
+#footer_logo{
+    width: 80%;
+    margin: 0 10%;
+}
+
+#footer_links{
+    font-size: .75em;
+}
+
+#footer_links li{
+    float: left;
+    clear: none;
+    margin-right: 10px;
+    list-style: none;
+}
+
+#footer_links a{
+    text-transform: uppercase;
+}
+
+
+/*Elements*/
+button{
+    background: #27c4f4;
+    border-color: #0bacdd;
+    border-radius: 100px;
+}
+
+button p{
+    color: #fff
+}
+
+button.secondary{
+    background: #666;
+    border-color: #222
+}
+
+.section-container, .section-container.auto,
+.section-container > section, .section-container > .section, .section-container.auto > section, .section-container.auto > .section{
+    border-color: #ececec;
+}
+
+.section-container > section .title, .section-container > .section .title, .section-container.auto > section .title, .section-container.auto > .section .title,
+.section-container > section .title:hover, .section-container > .section .title:hover, .section-container.auto > section:hover .title, .section-container.auto > .section .title:hover{
+    background: #f5f5f5;
+}
+
+.section-container > section .title a, .section-container > .section .title a, .section-container.auto > section .title a, .section-container.auto > .section .title a{
+    text-align: center;
+}
+
+.section-container > section:not(.active) .title a, .section-container > .section:not(.active) .title a, .section-container.auto > section:not(.active) .title a, .section-container.auto > .section:not(.active) .title a{
+    color: #27c4f4;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.section-container > section.active > .title, .section-container > .section.active > .title, .section-container.auto > section.active > .title, .section-container.auto > .section.active > .title{
+    background: #fff;
+}
+
+.section-container > section .title:hover a, .section-container > .section .title:hover a, .section-container.auto > section:hover .title a, .section-container.auto > .section .title:hover a{
+}
+
+.section-container > section.active .title a, .section-container > .section.active .title a, .section-container.auto > section.active .title a, .section-container.auto > .section.active .title a{
+    font-size: 1.25em;
+}
+
+.class_details:not(.open) .book:hover,
+.class_details:not(.open) .book:focus{
+    background: #fff;
+    border: solid 1px #ececec;
+}
+
+.class_details:not(.open) button p.label{
+    display: none;
+}
+
+.book .label{
+    background: none;
+    border-left: solid 1px #fff;
+}
+
+.class_title{
+    font-size: 1.5em;
+}
+
+
+/*Calendar*/
+.calendar li{
+    list-style: none;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ececec;
+}
+
+.calendar li:last-child{
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.calendar .book{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 6px 20px;
+}
+
+.calendar .class_date{
+    float: left;
+}
+
+
+.calendar .class_date span{
+    margin-right: 4px;
+}
+
+.calendar .open .label{
+    float: right;
+    padding: 5px 0 5px 16px;
+}
+
+
+/*Tile View*/
+.product_view ul{
+    margin-left: 20px;
+}
+
+.product_view li{
+    padding: 10px 10px 30px 10px;
+    text-align: center;
+}
+
+.product_view .class_title{
+    padding-bottom: .25em;
+    border-bottom: solid 1px #ececec;
+}
+
+.product_view .book{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 6px 0 0 0;
+    font-size: 1em;
+}
+
+.product_view .book .label{
+    display: none;
+}
+
+.product_view .class_date,
+.product_view .class_date span{
+    float: left;
+    width: 60px;
+}
+
+.product_view .class_date .class_day{
+    margin-top: -.5em;
+    font-size: 1.25em;
+}
+
+.product_view .open .book:focus{
+    width: 140px;
+    transition: width .5s;
+    -webkit-transition: width .5s; /* Safari */
+}
+
+.product_view .open .book:focus .class_date{
+    width: 50%;
+}
+
+.product_view .open .book:focus .label{
+    display: inline;
+    float: left;
+    width: 50%;
+    padding: 13px 0;
+}
+
+.product_view .class_price{
+    margin: 20px 10px 25px 80px;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.product_view .class_img{
+    max-width: 80%;
+    max-height: 130px;
+    margin: 0 10% 10px 10%;
+}
+
+.product_view .class_img img{
+    max-height: 100%;
+    max-width: 100%;
+    border: solid 5px #ececec;
+}
+
+.product_view .class_desc{
+    padding: 10px;
+    font-size: .85em;
+    color: #aaa;
+    text-align: left;
+}
+
+
+/*Class Details*/
+.book_class{
+    margin-bottom: 20px;
+    padding: 40px;
+    border: solid 1px #ececec;
+}
+
+.book_class .class_date{
+    margin-bottom: 40px;
+}
+
+.book_class button.book{
+    width: 100%;
+}
+
+.class_view{
+    padding: 0 60px;
+}

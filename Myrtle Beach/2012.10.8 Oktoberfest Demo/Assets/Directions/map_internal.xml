@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/search/local/ws/rest/v1">
+  <Copyright>Copyright © 2012 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.</Copyright>
+  <BrandLogoUri>http://dev.virtualearth.net/Branding/logo_powered_by.png</BrandLogoUri>
+  <StatusCode>200</StatusCode>
+  <StatusDescription>OK</StatusDescription>
+  <AuthenticationResultCode>ValidCredentials</AuthenticationResultCode>
+  <TraceId>caa9325e093845cea6bee10fae9d6c49|EWRM001652|02.00.82.300|EWRMSNVM002558, EWRMSNVM001816</TraceId>
+  <ResourceSets>
+    <ResourceSet>
+      <EstimatedTotal>1</EstimatedTotal>
+      <Resources>
+        <Route>
+          <Id>v63,i0,a0,cen-US,dAAAAAAAAAAA=,y0,s1,m1,o1,t4,wd2brAgBu4/g=~At2WS7NhXhYiAADgAfnBUD4A~NDI1OSBQYWNlIFN0LCBOb3J0aCBDaGFybGVzdG9uLCBTQyAyOTQwNQ==~~~,wd2brAgBu4/g=~At2WS7NhXhYiAADgAfnBUD4A~NDI1OSBQYWNlIFN0LCBOb3J0aCBDaGFybGVzdG9uLCBTQyAyOTQwNQ==~~~,k0</Id>
+          <BoundingBox>
+            <SouthLatitude>32.844736</SouthLatitude>
+            <WestLongitude>-80.005531</WestLongitude>
+            <NorthLatitude>32.844737</NorthLatitude>
+            <EastLongitude>-80.005531</EastLongitude>
+          </BoundingBox>
+          <DistanceUnit>Mile</DistanceUnit>
+          <DurationUnit>Second</DurationUnit>
+          <TravelDistance>0</TravelDistance>
+          <TravelDuration>0</TravelDuration>
+          <RouteLeg>
+            <TravelDistance>0</TravelDistance>
+            <TravelDuration>0</TravelDuration>
+            <ActualStart>
+              <Latitude>32.844737</Latitude>
+              <Longitude>-80.005531</Longitude>
+            </ActualStart>
+            <ActualEnd>
+              <Latitude>32.844737</Latitude>
+              <Longitude>-80.005531</Longitude>
+            </ActualEnd>
+            <StartLocation>
+              <Name>4259 Pace St, North Charleston, SC 29405</Name>
+              <Point>
+                <Latitude>32.844406</Latitude>
+                <Longitude>-80.005447</Longitude>
+              </Point>
+              <BoundingBox>
+                <SouthLatitude>32.840543</SouthLatitude>
+                <WestLongitude>-80.011577</WestLongitude>
+                <NorthLatitude>32.848269</NorthLatitude>
+                <EastLongitude>-79.999317</EastLongitude>
+              </BoundingBox>
+              <EntityType>Address</EntityType>
+              <Address>
+                <AddressLine>4259 Pace St</AddressLine>
+                <AdminDistrict>SC</AdminDistrict>
+                <AdminDistrict2>Charleston Co.</AdminDistrict2>
+                <CountryRegion>United States</CountryRegion>
+                <FormattedAddress>4259 Pace St, North Charleston, SC 29405</FormattedAddress>
+                <Locality>North Charleston</Locality>
+                <PostalCode>29405</PostalCode>
+              </Address>
+              <Confidence>High</Confidence>
+              <MatchCode>Good</MatchCode>
+              <GeocodePoint>
+                <Latitude>32.844406</Latitude>
+                <Longitude>-80.005447</Longitude>
+                <CalculationMethod>Parcel</CalculationMethod>
+                <UsageType>Display</UsageType>
+              </GeocodePoint>
+              <GeocodePoint>
+                <Latitude>32.844738</Latitude>
+                <Longitude>-80.005531</Longitude>
+                <CalculationMethod>Interpolation</CalculationMethod>
+                <UsageType>Route</UsageType>
+              </GeocodePoint>
+            </StartLocation>
+            <EndLocation>
+              <Name>4259 Pace St, North Charleston, SC 29405</Name>
+              <Point>
+                <Latitude>32.844406</Latitude>
+                <Longitude>-80.005447</Longitude>
+              </Point>
+              <BoundingBox>
+                <SouthLatitude>32.840543</SouthLatitude>
+                <WestLongitude>-80.011577</WestLongitude>
+                <NorthLatitude>32.848269</NorthLatitude>
+                <EastLongitude>-79.999317</EastLongitude>
+              </BoundingBox>
+              <EntityType>Address</EntityType>
+              <Address>
+                <AddressLine>4259 Pace St</AddressLine>
+                <AdminDistrict>SC</AdminDistrict>
+                <AdminDistrict2>Charleston Co.</AdminDistrict2>
+                <CountryRegion>United States</CountryRegion>
+                <FormattedAddress>4259 Pace St, North Charleston, SC 29405</FormattedAddress>
+                <Locality>North Charleston</Locality>
+                <PostalCode>29405</PostalCode>
+              </Address>
+              <Confidence>High</Confidence>
+              <MatchCode>Good</MatchCode>
+              <GeocodePoint>
+                <Latitude>32.844406</Latitude>
+                <Longitude>-80.005447</Longitude>
+                <CalculationMethod>Parcel</CalculationMethod>
+                <UsageType>Display</UsageType>
+              </GeocodePoint>
+              <GeocodePoint>
+                <Latitude>32.844738</Latitude>
+                <Longitude>-80.005531</Longitude>
+                <CalculationMethod>Interpolation</CalculationMethod>
+                <UsageType>Route</UsageType>
+              </GeocodePoint>
+            </EndLocation>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>0</TravelDistance>
+              <TravelDuration>0</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.844737</Latitude>
+                <Longitude>-80.005531</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="DepartStart">Depart Pace St toward Industrial Ave</Instruction>
+              <CompassDirection>north</CompassDirection>
+              <Detail>
+                <ManeuverType>DepartStart</ManeuverType>
+                <StartPathIndex>0</StartPathIndex>
+                <EndPathIndex>0</EndPathIndex>
+                <Name>Pace St</Name>
+                <CompassDegrees>0</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Street</RoadType>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <TowardsRoadName>Industrial Ave</TowardsRoadName>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <ItineraryItem>
+              <TravelMode>Driving</TravelMode>
+              <TravelDistance>0</TravelDistance>
+              <TravelDuration>0</TravelDuration>
+              <ManeuverPoint>
+                <Latitude>32.844737</Latitude>
+                <Longitude>-80.005531</Longitude>
+              </ManeuverPoint>
+              <Instruction maneuverType="ArriveFinish">Arrive at 4259 Pace St, North Charleston, SC 29405</Instruction>
+              <CompassDirection>north</CompassDirection>
+              <Hint>The last intersection is Pringle St</Hint>
+              <Hint>If you reach Industrial Ave, you've gone too far</Hint>
+              <Detail>
+                <ManeuverType>ArriveFinish</ManeuverType>
+                <StartPathIndex>0</StartPathIndex>
+                <EndPathIndex>0</EndPathIndex>
+                <Name>Pace St</Name>
+                <CompassDegrees>0</CompassDegrees>
+                <Mode>Driving</Mode>
+                <PreviousEntityId>0</PreviousEntityId>
+                <NextEntityId>0</NextEntityId>
+                <RoadType>Street</RoadType>
+              </Detail>
+              <Exit />
+              <TollZone />
+              <TransitTerminus />
+              <IconType>Auto</IconType>
+              <Time>0001-01-01T00:00:00</Time>
+              <TransitStopId>0</TransitStopId>
+              <SideOfStreet>Unknown</SideOfStreet>
+            </ItineraryItem>
+            <StartTime>0001-01-01T00:00:00</StartTime>
+            <EndTime>0001-01-01T00:00:00</EndTime>
+          </RouteLeg>
+        </Route>
+      </Resources>
+    </ResourceSet>
+  </ResourceSets>
+</Response>

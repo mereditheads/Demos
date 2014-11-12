@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POS Prototype - Ads</title>
+
+    <link rel="stylesheet" href="http://www.citycorridor.com/shared/foundation/css/foundation.css" />
+
+    <!--Foundation Custom-->
+    <link rel="stylesheet" href="http://www.citycorridor.com/shared/normalize-foundation-5-0-3-custom-v1.css" />
+
+    <link rel="stylesheet" href="http://www.citycorridor.com/shared/custom-foundation.css" />
+    <link rel="stylesheet" href="../css/custom-foundation-tablet.css" />
+
+    <!--Tablet App Stylesheets-->
+    <link rel="stylesheet" href="../themes/base/navigation.css" />
+    <link rel="stylesheet" href="../themes/base/ads.css" />
+    <link rel="stylesheet" href="../themes/base/layout.css" />
+
+    <!--Smart Destinations
+    <link rel="stylesheet" href="themes/smartdest/main.css" />-->
+
+    <link rel="stylesheet" href="../../lib/font-awesome-4.0.0/css/font-awesome.min.css">
+
+    <script src="http://www.citycorridor.com/shared/foundation/js/vendor/modernizr.js"></script>
+
+    <!--Nivo Slider-->
+    <link rel="stylesheet" href="../../lib/nivoslider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../../lib/nivoslider/nivo-slider.css" type="text/css" media="screen" />
+
+</head>
+<body>
+
+    <div id="nav">
+        <ul>
+            <li><a href="home.html"><i class="fa fa-2x fa-home"></i>Browse</a></li>
+            <li><a href="category.html"><i class="fa fa-2x fa-asterisk"></i>Category</a></li>
+            <li><a href="category.html"><i class="fa fa-2x fa-asterisk"></i>Category</a></li>
+            <li><a href="category.html"><i class="fa fa-2x fa-asterisk"></i>Category</a></li>
+            <li><a href="category.html"><i class="fa fa-2x fa-asterisk"></i>Category</a></li>
+            <li><a href="category.html"><i class="fa fa-2x fa-asterisk"></i>Category</a></li>
+            <li><a href="category.html"><i class="fa fa-2x fa-asterisk"></i>Category</a></li>
+        </ul>
+    </div>
+
+    <div id="ad_container">
+        <div id="ad-large-rotator">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <a href="listing.html"><img src="../images/ads/ad-large-example1.png" data-thumb="images/ads/ad-large-example1.png" alt="" /></a>
+                    <a href="listing.html"><img src="../images/ads/ad-large-example2.png" data-thumb="images/ads/ad-large-example2.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="http://www.citycorridor.com/shared/foundation/js/vendor/jquery.js"></script>
+    <script src="http://www.citycorridor.com/shared/foundation/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+    <script type="text/javascript" src="../../lib/nivoslider/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="../../lib/nivoslider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+                animSpeed: 500, // Slide transition speed
+                pauseTime: 10000, // How long each slide will show
+                directionNav: false, // Next & Prev navigation
+                controlNav: false, // 1,2,3... navigation
+                controlNavThumbs: false, // Use thumbnails for Control Nav
+                pauseOnHover: false, // Stop animation while hovering
+            });
+        });
+    </script>
+
+</body>
+</html>

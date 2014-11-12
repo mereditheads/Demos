@@ -1,0 +1,404 @@
+body{
+    background: #000;
+    color: #222;
+    font-weight: 300;
+}
+
+/*Foundation*/
+.row{
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.panel{
+    display: inline-block;
+    float: none;
+    padding: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.tabs dd > a {
+    background: #df1409;
+}
+
+.tabs dd:not(.active) > a{
+    color: #fff;
+    border-bottom: solid 1px #c5140a;
+}
+
+.tabs dd:not(.active) > a:hover {
+    background: #c5140a;
+}
+
+button,
+.button{
+    background: #df1409;
+    border-color: #c5140a;
+}
+
+button.secondary,
+.button.secondary{
+    background: #aaa;
+    border-color: #888;
+}
+
+button:hover,
+.button:hover,
+button.secondary:hover,
+.button.secondary:hover{
+    background: #c5140a;
+}
+
+button.secondary:hover,
+.button.secondary:hover{
+    border-color: #c5140a;
+}
+
+/*App Global*/
+h1{font-size: 2.25rem;}
+h2{font-size: 1.75rem;}
+h3{font-size: 1.25rem;}
+h4{
+    font-size: 1.1rem;
+}
+
+h1, h4{
+    text-transform: uppercase;
+}
+
+p,
+.panel p{
+    color: #666;
+    font-weight: 300;
+}
+
+p.small{
+    font-size: .85em;
+}
+
+a{color: #df1409;}
+
+a:hover{color: #c5140a;}
+
+.section-title{
+    display: inline-block;
+    width: 100%;
+}
+
+.section-title .button{
+    float: right;
+    margin-bottom: 0;
+    padding: .75rem 1rem;
+    text-transform: uppercase;
+}
+
+.section-title i.fa{
+    margin-right: .5rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+i.fa{color: #df1409;}
+
+button i.fa,
+.button i.fa{
+    color: #fff;
+}
+
+/*App Specific*/
+#nav{
+    float: left;
+    width: 200px;
+    height: 1080px;
+    background: #eee;
+    border-right: solid 1px #ddd;
+}
+
+#container{
+    float: left;
+    width: 1720px;
+    height: 1080px;
+    padding: 40px;
+    background: #fff;
+}
+
+#container.ads{
+    padding: 0;
+}
+
+#nav a{
+    float: left;
+    width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+    border-bottom: solid 1px #ddd;
+    color: #666;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#nav i.fa{
+    display: block;
+    margin-bottom: .5rem;
+}
+
+#nav .active a{
+    background: #df1409;
+    color: #fff;
+}
+
+#nav .active i.fa{
+    color: #fff;
+}
+
+#logo{
+    float: left;
+    width: 118px;
+    margin-right: 3rem;
+}
+
+#logo-footer{
+    float: right;
+    width: 200px;
+    height: auto;
+}
+
+.logo-button{
+    position: relative;
+    overflow: hidden;
+}
+
+a.back{
+    float: right;
+    text-decoration: underline;
+}
+
+.main li:first-child{
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.main.large-block-grid-2 > li:nth-of-type(2n+1) {
+    clear: none;
+    padding-left: 0;
+}
+
+.main.large-block-grid-2 > li:nth-of-type(2n) {
+    padding-right: 0;
+}
+
+.main.large-block-grid-2 > li:first-child {
+    padding-left: .625rem;
+}
+
+.list{
+    height: 855px;
+    overflow-y: auto;
+    padding: 2rem 0 1rem 0;
+    border-top: solid 1px #eee;
+    border-bottom: solid 1px #eee;
+}
+
+.list li:nth-of-type(3n+2) label{
+    width: calc(100% - 1px);
+}
+
+.logo-button label{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: calc(100% - 2px);
+    margin-bottom: 0;
+    padding: .5rem 1rem;
+    background: rgba(255, 255, 255, .9);
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: #333;
+}
+
+.logo-button label span:before{
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.main .logo-button label{
+    width: calc(100% - 1px);
+}
+
+.list .logo-button label{
+    height: 55px;
+    line-height: 1em;
+}
+
+.logo-button label h2{
+    color: #222;
+}
+
+.logo-button img{
+    border: solid 1px #ddd;
+    height: 275px;
+}
+
+.logo-button.large img{
+    height: 800px;
+}
+
+.main li:first-child .logo-button img{
+    height: 650px;
+    border-bottom: none;
+}
+
+.main.large-block-grid-2 > li:nth-of-type(2n) img{
+    border-right: none;
+}
+
+.main .logo-button img{
+    height: 215px;
+}
+
+.main .logo-button span:before{
+    content: "Up Next: ";
+}
+
+.logo-button.featured span:before{
+    content: "Featured: ";
+}
+
+.list li img{
+    height: 200px;
+}
+
+.sidebar{
+    max-height: 800px;
+}
+
+.ad{
+    margin-bottom: 1.75rem;
+}
+
+.ad.small{
+    display: inline;
+    float: left;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.ad.small img{
+    width: 100%;
+    max-height: 150px;
+}
+.ad.small .heading{
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    background: #fff;
+}
+
+.quick-links a.button{
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.quick-links a.button:last-child{
+    margin-bottom: 0;
+}
+
+.search input{
+    width: 70%;
+    margin-right: 4%;
+    line-height: 2.5em;
+}
+
+/*Classes*/
+#classes li:nth-of-type(3n+1) label{
+    width: calc(100% - 1px);
+}
+
+#calendar{
+    margin-top: 1rem;
+}
+
+#calendar .tabs.vertical {
+    width: 30%;
+}
+
+#calendar .tabs-content{
+    width: 70%;
+    height: 580px;
+    overflow-y: auto;
+    padding: 1.5rem 1rem;
+    background: #fff;
+}
+
+#calendar .tabs-content li{
+    margin-bottom: .5rem;
+    padding: 1rem;
+    border: solid 1px #eee;
+}
+
+#calendar label{
+    float: right;
+    width: auto;
+    padding: .75rem;
+    background: #222;
+    color: #fff;
+    font-style: italic;
+}
+
+#calendar .status-open label,
+#calendar .status-closed .button{
+    display: none;
+}
+
+#calendar span{
+    margin-left: .5rem;
+    font-size: 1.25rem;
+}
+
+.class-price{
+    float: right;
+    display: inline;
+}
+
+#calendar p{
+    margin-top: .5rem;
+    padding-top: .5rem;
+    border-top: solid 1px #eee;
+}
+
+.description img{
+    float: left;
+    margin: 0 1rem 1rem 0;
+    width: 35%;
+}
+
+.class-menu{
+    margin-bottom: 1rem;
+}
+
+.class-menu li{
+    width: 100%;
+    padding: .5rem 0;
+    border-bottom: solid 1px #eee;
+}
+
+.purchase{
+    margin: 0 2rem;
+    padding-left: 3rem;
+    border-left: solid 1px #eee;
+}
+
+.gallery img{
+    border: solid 5px #ddd;
+}
+
+/*Le Creuset*/
+#lecreuset-logo{
+    width: 360px;
+}
+
+#recipes .logo-button img{
+    height: auto;
+}

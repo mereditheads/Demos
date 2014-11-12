@@ -1,0 +1,17 @@
+
+/*-------------Content Area-------------*/
+
+/*-------------Sidebar = Filter-------------*/
+
+
+/*-------------Menu Display-------------*/
+#menu_display{
+    float:left;
+    height:100%;
+    width: 770px;
+    margin-left:40px;
+}
+#menu_display img{
+    width:100%;
+    height: auto;
+}

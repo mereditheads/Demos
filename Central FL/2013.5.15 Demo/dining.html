@@ -1,0 +1,165 @@
+<html>
+	<head>
+    	<!-- Grid CSS -->
+        <link href="css/blueprint_1080px/screen.css" rel="stylesheet" type="text/css" media="screen">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/ad.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/category.css" type="text/css" media="screen, projection">
+        
+        <!-- Custom Jquery UI CSS -->
+        <!-- *$*$*is this still needed?*$*$* <link rel="stylesheet" href="css/jquery-ui-custom.css" /> -->
+        <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />--
+        
+        <!-- Ad Rotator Script -->
+        <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+        <script>
+		$(function() {
+			var icons = {
+				header: "ui-icon-circle-arrow-e",
+				activeHeader: "ui-icon-circle-arrow-s"
+			};
+			$( "#accordion" ).accordion({
+				icons: icons
+			});
+			$( "#toggle" ).button().click(function() {
+				if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+					$( "#accordion" ).accordion( "option", "icons", null );
+				} else {
+					$( "#accordion" ).accordion( "option", "icons", icons );
+				}
+			});
+		});
+		</script>
+        
+        <!-- #info_container Background Position JQuery -->
+        <!--<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+        <script>
+		var scrollSpeed = 100;
+		// set the default position
+		var current = 0;
+		// set the direction
+		var direction = 'h';
+		function bgscroll(){
+			// 1 pixel row at a time
+			current -= 1;
+			// move the background with backgrond-position css properties
+			$('#info_container').css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");
+		}
+		//Calls the scrolling function repeatedly
+		 setInterval(bgscroll, scrollSpeed);    
+		</script>-->
+        
+    </head>
+    
+    <body oncontextmenu="return false;"> <!--Disable right-click-->
+    	<div class="container">
+        
+            <div id="header" class="span-35">
+                <div id="info_container">
+                	
+                    <div id="info_content">
+                        <div id="date_time"><p class="day">Sunday</p><p class="date">September 24</p><p class="time">1:40<span class="timeofday">pm</span></p></div>
+                        <div id="weather">
+                            <div id="weather_icon"><img src="images/info/weather_rain.png"/></div>
+                            <div id="temp"><p>100 <span class="low_temp">/ 70</span></p></div>
+                        </div>
+                	</div>
+                    <!--<img src="images/bg/bg_info_highlight.png" style="position:absolute; left:0px; top:0px; overflow:hidden;"/>-->
+                </div>
+                <div id="info_header">
+                	<p class="category_name">Where to Eat<!--@ViewBag.Category--></p>
+            	</div>
+            	<div id="ad-small-rotator" class="nivoSlider span-26 last banner"><img src="images/category/ad_small_sample.png"/></div>
+            </div><!--End #header-->
+            
+            <div id="content">
+                <div id="sidebar" class="span-9">
+                    <div id="filter_container">
+                    	<div id="filter_actions">
+                        	<ul class="filter_btn"><a href="#">Western<span class="filter_expand">+</span></a>
+                         		<li class="sub_filter_btn"><a href="#">Western Wetlands</a></li>
+                            	<li class="sub_filter_btn"><a href="#">Bluegrass, Blues, &amp; BBQ</a></li>
+                            </ul>
+                            <ul class="filter_btn"><a href="#">North Central<span class="filter_expand">+</span></a></ul>
+                            <ul class="filter_btn"><a href="#">South Central<span class="filter_expand">+</span></a></ul>
+                            <ul class="filter_btn"><a href="#">Eastern<span class="filter_expand">+</span></a></ul>
+                            <ul class="filter_btn"><a href="#">Show All</a></ul>
+                    	</div>
+                    </div>
+                </div><!--End #sidebar-->
+                <div id="sub_navigation" class="span-9">
+                    <div id="sub_nav_btn1" class="prepend-1 span-3">
+                         <a href="home.html" id="btnHome"><img src="images/navigation/btn_home.png"/></a>
+                    </div>
+                    <div id="sub_nav_btn2" class="span-3 append-1 last">
+                          <a href="home.html" id="btnBack"><img src="images/navigation/btn_back.png"/></a>
+                    </div>
+                </div><!--End #sub_navigation-->
+             	<div id="category_container">
+                    <div id="category_grid">
+                        <div id="category_rows">
+                            <div class="category_row">
+                                <div class="category_button_0"><img src="images/category/cat_american.png"/></div>
+                                <div class="category_button_1"><img src="images/category/cat_asian.png"/></div>
+                                <div class="category_button_2"><img src="images/category/cat_bakery.png"/></div>
+                                <div class="category_button_3"><img src="images/category/cat_bbq.png"/></div>
+							</div>
+                            <div class="category_row">
+                            	<div class="category_button_3"><img src="images/category/cat_beerwinespirits.png"/></div>
+                                <div class="category_button_0"><img src="images/category/cat_coffeeshop.png"/></div>
+                                <div class="category_button_1"><img src="images/category/cat_fastfood.png"/></div>
+                                <div class="category_button_2"><img src="images/category/cat_finedining.png"/></div>   
+                            </div>
+                            <div class="category_row">
+                            	<div class="category_button_3"><img src="images/category/cat_icecreamdessert.png"/></div>
+                                <div class="category_button_0"><img src="images/category/cat_italianpizza.png"/></div>
+                                <div class="category_button_1"><img src="images/category/cat_mediterraneangreek.png"/></div>
+                                <div class="category_button_2"><img src="images/category/cat_mexican.png"/></div>
+                            </div>
+                            <div class="category_row">
+                                <div class="category_button_3"><img src="images/category/cat_seafood.png"/></div>
+                                <div class="category_button_0"><a href="soulsouthernstyle.html"><img src="images/category/cat_soulsouthernstyle.png"/></a></div>
+                                <div class="category_button_1"><img src="images/category/cat_soupsaladsandwiches.png"/></div>
+                                <div class="category_button_2"><img src="images/category/cat_specialty.png"/></div>
+                            </div>
+                           <div class="category_row">
+                                <div class="category_button_3"><img src="images/category/cat_sportsbar.png"/></div>
+                                <div class="category_button_0"><img src="images/category/cat_steakhouse.png"/></div>
+                                <div class="category_button_2"></div>
+                                <div class="category_button_3"></div>
+                            </div>
+                            <div class="category_row">
+                                <div class="category_button_0"></div>
+                                <div class="category_button_1"></div>
+                                <div class="category_button_2"></div>
+                                <div class="category_button_3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--End #category_container-->
+            </div><!--End #content-->
+            
+            <div id="nav_container" class="span-35">
+                <div class="main_nav">
+                    <img src="images/navigation/btn_deals.png"/>
+                </div>
+                <div class="main_nav">
+                    <a href="seedo.html"><img src="images/navigation/btn_seedo.png"></a>
+                </div>
+                <div class="main_nav">
+                    <a href="internal.html"><img src="images/navigation/btn_guestbook.png" /></a>
+                </div>
+                <div class="main_nav">
+                    <a href="dining.html"><img src="images/navigation/btn_dining.png" /></a>
+                </div>
+                <div class="main_nav">
+                    <img src="images/navigation/btn_visitorinfo.png" />
+                </div>
+            </div><!--End #nav_container-->
+            
+        </div><!--End .container-->
+    </body>
+</html>

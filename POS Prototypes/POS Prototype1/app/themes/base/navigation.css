@@ -1,0 +1,36 @@
+#nav{
+    float: left;
+    width: 200px;
+    height: 1080px;
+    background: #222;
+    border-right: solid 1px #000;
+}
+
+#nav a{
+    float: left;
+    width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+    border-bottom: solid 1px #000;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#nav a:hover{
+    background: #565656;
+}
+
+#nav i.fa{
+    display: block;
+    margin-bottom: .5rem;
+    color: #aaaaaa;
+}
+
+#nav .active a{
+    background: #df1409;
+    color: #fff;
+}
+
+#nav .active i.fa{
+    color: #fff;
+}

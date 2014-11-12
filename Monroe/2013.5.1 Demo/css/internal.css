@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#internal{
+	float:left;
+	/*width:801px;*/ /*without padding*/
+	width:739px;
+	padding: 40px 31px 0 31px;
+    /*height: 1250px; /*define if background needed*/
+}
+#sidebar{ 
+	height:1250px;
+}

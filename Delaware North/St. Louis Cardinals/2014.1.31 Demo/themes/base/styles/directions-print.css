@@ -1,0 +1,90 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+}
+
+/*------------Header-----------*/
+#header{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.transit_icon{
+    float: left;
+    max-height: 40px;
+    margin-right: 20px;
+}
+
+#header .destination,
+#header .phone{
+    float: left;
+    margin: 0 20px 0 0;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#header .destination:before{
+    content: 'Destination:';
+}
+
+#header .phone:before{
+    content:'Call:';
+}
+
+/*-------------Content-------------*/
+#sidebar,
+.map {
+    float: left;
+    width: 300px;
+}
+
+.map{
+    height: 300px;
+}
+
+#directions{
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+}
+
+/* ---------- Google Styles ----------- */
+.adp-warnbox { display: none;}
+
+.adp-placemark {
+    border-color: transparent;
+}
+
+.adp-summary {
+    padding-bottom: 10px;
+}
+
+.adp-directions {
+    width: 100%;
+    font-size: 12px
+}
+
+td.adp-step, td.adp-substep {
+    padding: 5px;
+}
+
+.adp-substep .adp-distance {
+    float: right;
+}
+
+.adp-agencies{
+    float: left;
+    margin: 20px;
+}
+
+.adp-legal {
+    float: right;
+    font-size: 12px;
+}
+
+@media print {}
+
+#logo_citycorridor{
+    width: 200px;
+    margin-top: 20px;
+}

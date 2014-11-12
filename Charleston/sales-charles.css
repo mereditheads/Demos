@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{background-color:#000;}
+#screen{margin:auto; padding-top:0px; height:1150px; width:647px;}
+#nav{height:252px;}
+#billboard{height:899px;}
+#banner{height:150px;}
+#category{height:749px;}
+#product{height:899px;}
+#menu{height:776px;}

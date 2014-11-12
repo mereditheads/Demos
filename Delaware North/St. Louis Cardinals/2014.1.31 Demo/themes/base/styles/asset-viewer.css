@@ -1,0 +1,82 @@
+/*
+NOTE:
+Creating a new class called asset-viewer to abstract Foundation Clearing
+Let's use this going forward and refactor the below classes to target our app rather than Foundation
+*/
+
+.asset-viewer .action {
+    position: absolute;
+    top: 1152px;
+    width: 350px;
+    padding: 22px 24px 28px 24px;
+    background: #000;
+    text-align: center;
+}
+
+.asset-viewer .print {
+    left: 0;
+    line-height: 1;
+    color: white;
+    font-size: 36px;
+}
+
+.asset-viewer .close {
+    right: 0;
+}
+
+.asset-viewer .close:after {
+    content: " Close";
+}
+
+.clearing-blackout {
+    margin-top: 360px;
+    border-top: solid 1px #000;
+}
+
+.clearing-assembled .clearing-container .carousel {
+    margin-top: 0;
+}
+
+.clearing-assembled .clearing-container .carousel > ul li {
+    height: 280px;
+    margin: 20px 10px;
+    opacity: 1;
+    background: #e3e3e3;
+    border: solid 1px #bcbcbc;
+}
+
+.clearing-assembled .clearing-container .carousel > ul li:not(.visible) {
+    opacity: .5;
+}
+
+.clearing-main-prev,
+.clearing-main-next {
+    top: 560px;
+    height: 120px;
+    width: 80px;
+    background: #000;
+}
+
+.clearing-main-prev span,
+.clearing-main-next span {
+    margin-top: -20px;
+}
+
+.clearing-main-prev span {
+    left: 10px;
+}
+
+.clearing-main-next span {
+    left: 30px;
+}
+
+.visible-img img {
+    top: 43%;
+    max-width: 920px;
+    max-height: 1000px;
+}
+
+.clearing-caption {
+    top: 1060px;
+    font-size: 24px;
+}

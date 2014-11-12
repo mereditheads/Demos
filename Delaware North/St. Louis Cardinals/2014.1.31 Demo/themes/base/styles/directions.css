@@ -1,0 +1,256 @@
+/*
+Base Theme - Layout
+*/
+
+/*=============================================*/
+/*------------- Table of Contents -------------*/
+
+/*
+:: Content Area
+:: Media
+:: Content
+:: Google Maps Styles
+:: Bing Styles
+:: Sidebar (Transit Mode & Action)
+*/
+
+/*=============================================*/
+
+/*-------------Content Area-------------*/
+.directions #content {}
+
+/*------------- Media -------------*/
+.directions #media {}
+
+.directions #map_container {
+    width: 100%;
+}
+
+/* Fix Google Map controls that get messed up with Foundation setting img max-width: 100% */
+.directions #map_container img {
+    max-width: inherit;
+}
+
+/*-------------Content (Directions)-------------*/
+.directions #content {
+    width: 650px !important;
+    background: #fff;
+    border-right: solid 1px #e3e3e3;
+    color: #777;
+}
+
+.directions #content img#fade_top,
+.directions #content img#fade_bottom {
+    position: absolute;
+    width: 60%;
+    height: 100px;
+    z-index: 100;
+}
+
+.directions #content img#fade_top {
+    top: 806px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
+.directions #content img#fade_bottom {
+    top: 1450px;
+}
+
+#directions {
+    height: 744px;
+    overflow-y: auto;
+    margin: 20px 40px 50px 40px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    color: #666 !important;
+}
+
+.directions #listing_details h2,
+.directions #listing_details p {
+    margin-bottom: 0;
+    padding: 0 16px 16px 16px;
+}
+
+.directions #listing_details h3 {
+    padding: 16px 16px 0 16px;
+}
+
+.directions #listing_details p {
+    border-top: none;
+}
+
+.directions #listing_details h2 {
+    border-bottom: solid 1px #e3e3e3;
+}
+
+/* ---------- Google Maps Styles ----------- */
+
+table.adp-placemark {
+    background-color: white;
+    border: 0 none;
+}
+
+table.adp-placemark img {
+    max-width: inherit;
+}
+
+table.adp-directions {
+    float: left;
+    width: 100%;
+    border: 0 none;
+}
+
+td.adp-step, td.adp-substep {
+    border: 0 none;
+    margin: 0;
+    padding: .5em;
+    vertical-align: top;
+    background-color: #fff;
+}
+
+td.adp-text {
+    font-size: 20px;
+    color: #222;
+}
+
+.adp-warnbox {
+    display: none;
+}
+
+.adp-placemark {
+    float: left;
+    margin: 0 !important;
+}
+
+.adp-summary {
+    float: right;
+    padding: 20px 0 !important;
+}
+
+.adp-substep {
+    padding: 10px !important;
+}
+
+.adp-substep img {
+    width: 30px;
+    height: 30px;
+    margin: 4px 10px 10px 0;
+}
+
+.adp-substep div.adp-details {
+    float: right;
+    text-align: right;
+    margin-top: -31px /*so time aligns vertically with direction step*/;
+}
+
+.adp-substep span.adp-details {
+    float: right;
+}
+
+.adp-agencies {
+    float: left;
+    margin-left: 20px;
+    margin-top: 36px;
+    width: 50%;
+    padding: 1em;
+    background: #eee;
+    display: none;
+}
+
+.adp-legal {
+    float: right;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+/* ---------- Bing Styles ----------- */
+/*
+.dd_directionStepLetter {
+    margin-right: 16px;
+}
+
+.dd_locationWaypoint {
+    margin-bottom: 16px;
+}
+
+.dd_tripSummary {
+    float: right;
+    margin-bottom: 1em;
+}
+
+.dd_distance {
+    float: right;
+    margin-left: 1em;
+}
+
+.dd_intersectionHint {
+    font-size: .9em;
+    font-style: italic;
+}
+
+*/
+
+/*-------------Sidebar (Transit Mode & Action)-------------*/
+.directions #sidebar {
+    width: 80px;
+    background: none;
+}
+
+.directions #sidebar_container {
+    float: left;
+    width: 100%;
+    margin-left: -1px;
+}
+
+#transit_mode li {
+    width: 70px;
+}
+
+#transit_mode li a {
+    width: 70px;
+    height: 62px;
+    background: none no-repeat;
+}
+
+#transit_mode li#walk a,
+#transit_mode li#drive a,
+#transit_mode li#public a,
+#transit_mode li#walk.selected a,
+#transit_mode li#drive.selected a,
+#transit_mode li#public.selected a {
+    background-size: 40px;
+    background-position: 14px 50%;
+}
+
+#transit_mode li#walk a {
+    background-image: url('../images/listing/icon_directions_walk.png');
+}
+
+#transit_mode li#walk.selected a {
+    background-image: url('../images/listing/icon_directions_walk2.png');
+}
+
+#transit_mode li#drive a {
+    background-image: url('../images/listing/icon_directions_drive.png');
+}
+
+#transit_mode li#drive.selected a {
+    background-image: url('../images/listing/icon_directions_drive2.png');
+}
+
+#transit_mode li#public a {
+    background-image: url('../images/listing/icon_directions_public.png');
+}
+
+#transit_mode li#public.selected a {
+    background-image: url('../images/listing/icon_directions_public2.png');
+}
+
+.directions #action {
+    background: url('../images/listing/logo_googlemaps.png') no-repeat;
+    background-position: 165px 560px;
+    background-size: 200px;
+}

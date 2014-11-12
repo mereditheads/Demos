@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Avenir-Book;
+    src: url('fonts/Avenir-Book.otf');
+}
+
+body {
+    background: #000;
+	font-family: Avenir-Book;
+}
+
+#header{
+    height: 165px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 38px 0px;
+    text-align: center;
+    background: #000;
+    display: table;
+}
+
+p.header{
+    color: #fff;
+    display: table-cell;
+    vertical-align: bottom;
+    font-size: 40px;
+}
+
+
+#purchase{
+    height: 1717px;
+}
+
+#purchase_image{
+    height: 29px;
+    margin: 257px 0px 61px 0px;
+}
+
+#purchase_options{
+    height: 580px;
+}
+
+div.option_row{
+    height: 100px;
+    background: url('../images/purchase/bg_buy_option.png') ;
+    margin: 0px 0px 30px 0px;
+}
+
+div.option_description{
+    display: table;
+    height: 100px;
+}
+
+p.option_description_text{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f72b1;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.option_quantity{
+
+}
+
+p.option_quantity_text{
+
+}
+
+div.quantity_box{
+    background: #fff;
+    border: 1px solid #d6d7d7;
+    height: 74px;
+    width: 91px;
+    margin: 12px 0px 12px 0px;
+    display: table;
+}
+p.quantity_box_text{
+    text-align: center;
+    font-weight: bold;
+    color: #6d9f47;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+	font-weight: bold;
+}
+p.option_price{
+    display: table-cell;
+    color:#0f71b1;
+    font-size: 30px;
+	font-weight: bold;
+    vertical-align: middle;
+}
+
+p.option_sub_total{
+    display: table-cell;
+    color:#6d9f47;
+    font-size: 30px;
+	font-weight: bold;
+    vertical-align: middle;
+}
+
+img.increment_btn{
+    margin-top: 25px;
+}
+
+div.option_increment_up{}
+div.option_increment_down{}
+
+img.symbol_image{
+    margin-top:37px;
+}
+
+div.symbol_image_container{
+    height: 100px;
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+}
+
+div.option_subtotal{
+    height: 100px;
+    display: table;
+}
+
+p.option_subtotal_text{
+    display: table-cell;
+    vertical-align: middle;
+	font-weight: bold;
+}
+
+div.option_total{
+
+}
+
+div.purchase_total{
+    height: 100px;
+    background: url('../images/purchase/bg_buy_total.png');
+    margin: 0px 0px 30px 0px;
+
+}
+
+p.purchase_total_description{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p.purchase_total_amount{
+    display: table-cell;
+    color:#aed250;
+    font-size: 40px;
+	font-weight: bold;
+    vertical-align: middle;
+}
+
+img.middle_image{
+
+}
+
+
+/*transaction styles */
+div.buy_start{background: url('../images/purchase/bg_buy_tickets.png')}
+div.buy_processing{background: url('../images/purchase/bg_buy_processing.png')}
+div.buy_swipe{background: url('../images/purchase/bg_buy_swipe.png')}
+div.buy_reswipe{background: url('../images/purchase/bg_buy_reswipe1.png')}
+div.buy_reswipe1{background: url('../images/purchase/bg_buy_reswipe1.png')}
+div.buy_reswipe2{background: url('../images/purchase/bg_buy_reswipe2.png')}
+div.buy_reswipe3{background: url('../images/purchase/bg_buy_reswipe3.png')}
+div.buy_reswipe_failed{background: url('../images/purchase/bg_buy_reswipe_failed.png')}
+div.buy_failed{background: url('../images/purchase/bg_buy_processing_failed.png')}
+div.buy_declined{background: url('../images/purchase/bg_buy_declined.png')}
+div.buy_completed{background: url('../images/purchase/bg_buy_thankyou.png')}
+div.buy_printing{background: url('../images/purchase/bg_buy_printing.png')}

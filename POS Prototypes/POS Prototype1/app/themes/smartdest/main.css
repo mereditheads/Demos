@@ -1,0 +1,47 @@
+a{color: #df1409;}
+
+a:hover{color: #c5140a;}
+
+i.fa{color: #df1409;}
+
+button i.fa,
+.button i.fa{
+    color: #fff;
+}
+
+button,
+.button{
+    background: #df1409;
+    border-color: #c5140a;
+}
+
+button.secondary,
+.button.secondary{
+    background: #aaa;
+    border-color: #888;
+}
+
+button:hover,
+.button:hover,
+button.secondary:hover,
+.button.secondary:hover{
+    background: #c5140a;
+}
+
+button.secondary:hover,
+.button.secondary:hover{
+    border-color: #c5140a;
+}
+
+.tabs dd > a {
+    background: #df1409;
+}
+
+.tabs dd:not(.active) > a{
+    color: #fff;
+    border-bottom: solid 1px #c5140a;
+}
+
+.tabs dd:not(.active) > a:hover {
+    background: #c5140a;
+}

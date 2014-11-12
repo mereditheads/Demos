@@ -1,0 +1,83 @@
+/*
+Base Theme - Special Offer
+*/
+
+/*=============================================*/
+/*------------- Table of Contents -------------*/
+
+/*
+:: Sidebar
+:: Content
+*/
+
+/*=============================================*/
+
+
+/*-------------Sidebar-------------*/
+.listing #sidebar_container #offer_selection li a{
+    padding-left: 24px;
+}
+
+#offer_selection li.selected{
+    background: #333;
+}
+
+#offer_selection li a{
+    background: url('../images/listing/icon_open.png') no-repeat;
+    background-size: 30px;
+    background-position: 214px 50%;
+}
+
+#offer_selection li.selected a{
+    background: url('../images/listing/icon_selected.png') no-repeat;
+    background-size: 30px;
+    background-position: 214px 50%;
+    color: #bcbcbc;
+}
+
+#offer_selection li#close a{
+    background: none;
+}
+
+/*-------------Content-------------*/
+#offer_details {
+    float: left;
+    height: 100%;
+    width: 460px;
+    padding: 60px 40px 0 40px;
+    background: #fff;
+    border-right: solid 1px #e3e3e3;
+}
+
+#offer_details .offer{
+    margin-bottom: 24px;
+    border:solid 1px #e3e3e3;
+}
+
+.offer h2{
+    padding: 10px 16px 10px 80px;
+    border-bottom: solid 1px #e3e3e3;
+    text-indent: -50px;
+}
+
+.offer h3,
+.offer p{
+    padding: 0 16px;
+}
+
+.offer h3:before {
+    content: "Expires: ";
+}
+
+.offer .label{
+    position: relative;
+    top: 6px;
+    left: -12px;
+    margin: 0;
+    padding: 6px 15px;
+    background-color: #222;
+    border-radius: 50px;
+    color: #fff;
+    line-height: 30px;
+    text-indent: 0px;
+}

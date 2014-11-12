@@ -1,0 +1,60 @@
+/*
+Base Theme - Locations
+*/
+
+/*=============================================*/
+/*------------- Table of Contents -------------*/
+
+/*
+:: Content
+:: Action
+:: Sidebar
+*/
+
+/*=============================================*/
+
+/*-------------Content (Locations)-------------*/
+.locations #content {
+    width: 730px;
+    height: 790px;
+    padding: 60px 40px;
+    background: #fff;
+    border-right: solid 1px #e3e3e3;
+}
+
+#location_details {
+    margin-bottom: 30px;
+    color: #666 !important;
+}
+
+.locations h2 {
+    float: left;
+    width: 100%;
+    padding: 0 0 16px 0;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.locations .title {
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+.locations #description{
+    margin-right: 0;
+    margin-left: 0;
+    line-height: 1.5em;
+}
+
+/*-------------Action-------------*/
+.locations #action {
+    height:auto;
+    background: none;
+}
+
+/*-------------Sidebar-------------*/
+.locations #sidebar_container {
+    width: 310px;
+    margin-left: -1px;
+    padding-top: 12px;
+}
+
